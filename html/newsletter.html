@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Neighbourhood</title>
+    <!-- link(rel="stylesheet" type="text/css" href="style.css")-->
+    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/less.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="wrapper">
+        <p class="slogan">The Braybrook Maidstone Neighbourhood House Inc</p>
+        <p class="donate"><a href="#">03 9317 5610</a></p>
+        <h1 id="logo"><a href=""><img src="img/logo.png" alt="logo" title="logo"></a></h1>
+        <div class="formSearch">
+          <form>
+            <input type="text" placeholder="Search..." class="search_top">
+            <input type="submit" name="submit" value="Search">
+          </form>
+        </div>
+      </div>
+      <nav id="topNav">
+        <ul class="slimmenu">
+          <li><a href="">About Us</a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Sponsors</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+      <p class="breadcumb"><a href="">Home</a><i>B.M.N.H Courses</i></p>
+      <header>
+        <img src="img/courses-banner.jpg" alt="" title="">
+      </header>
+      <session class="mainContent">
+        <p>
+          Braybrook Maidstone Neighbourhood House invites you to subscribe today to our new electronic newsletter, simply provide us with your name and email details and we will send you regular updates on our Newsletter.<br/>
+          All subscribers to these newsletters are protected by the Braybrook Maidstone Neighbourhood House Privacy Policy.
+        </p>
+      </session>
+      <session class="sidebar">
+        <div class="formSubcribe">
+          <h3>eNewsletter</h3>
+          <form>
+            <input type="text" placeholder="First name..." name="firstName" class="name">
+            <input type="text" placeholder="Last name..." name="lastName" class="name">
+            <input type="text" placeholder="Email..." name="email" class="email">
+            <input type="submit" name="submit" value="Subscribe"><span>Your privacy is protected</span><i>Subscribe to received our newsletter</i>
+          </form>
+        </div>
+      </session>
+      <div class="clear"></div>
+      <session class="newsletter">
+        <svg height="0" width="0" style="position: absolute; margin-left: -100%;">
+  
+          <defs>
+            
+            <filter id='shadow'>
+              <feComponentTransfer in="SourceGraphic">
+                <feFuncR type="discrete" tableValues="0"/>
+                <feFuncG type="discrete" tableValues="0"/>
+                <feFuncB type="discrete" tableValues="0"/>
+              </feComponentTransfer>
+              <feGaussianBlur stdDeviation="1"/>
+               <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+              <feOffset dx="5" dy="1" result="shadow"/>
+              <feComposite in="SourceGraphic" />
+            </filter>
+                
+            <linearGradient id="tab-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(241,239,239, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-2-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(241,239,239, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-3-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(61, 149, 218, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-4-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(72, 204, 243, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+              
+          </defs>
+          
+            <path id="tab-shape" class="tab-shape" d="M116.486,29.036c-23.582-8-14.821-29-42.018-29h-62.4C5.441,0.036,0,5.376,0,12.003v28.033h122v-11H116.486z" />
+          
+        </svg>
+
+        <nav role="navigation" class="main-navigation">
+          <ul>
+            <li id="tab-1" class="tab-1 active" data-bg-color="rgba(118, 160, 192, 1.0)">
+              <a href="#home">
+                <span>THE BRAYSTONE</span>
+                <svg viewBox="0 0 162 40">
+                   <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-2" class="tab-2" data-bg-color="rgba(112, 153, 213, 1.0)">
+              <a href="#about">
+                <span>B.M.N.H TRAINING </span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-3" class="tab-3" data-bg-color="rgba(43, 130, 197, 1.0)">
+              <a href="#clients">
+                <span>B.M.N.H COURSES</span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-4" class="tab-4" data-bg-color="rgba(71, 194, 243, 1.0)" data-content="test">
+              <a href="#contact">
+                <span>B.M.N.H SERVICES</span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="main-content">
+          <article class="tab-1 active">
+            <img src="img/braystone.jpg" alt="braystone" title="braystone">
+          </article>
+          <article class="tab-2">
+            <img src="img/training.jpg" alt="training" title="training">
+          </article>
+          <article class="tab-3">
+            <img src="img/courses.jpg" alt="courses" title="courses">
+          </article>
+          <article class="tab-4">
+            <img src="img/services.jpg" alt="services" title="services">
+          </article>
+          <p class="download">
+            <button type="button"><img src="img/download.png" alt="download" title="download"></button>
+          </p>
+        </div>
+      </session>
+    </div>
+
+    <footer>
+      <nav id="bottomNav">
+        <ul class="slimmenu2">
+          <li><a href="">About Us </a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Newsletter</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="">Sponsors</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">FAQs  I  Unsubscribe Newsletter</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <div class="wrapper">
+        <div class="contact">
+          <p>Contact us:</p>
+          <ul>
+            <li>113 Melon Street, Braybrook 3019</li>
+            <li>Phone: 03 9317 5610</li>
+            <li>Email: office@bmnh.org.au</li>
+            <li>ABN 73 967 833 454</li>
+          </ul>
+        </div>
+        <div class="openHour">
+          <p>open hour:</p>
+          <ul>
+            <li>Monday to Thursday 9:00 am – 4:00 pm  </li>
+          </ul>
+        </div>
+        <div class="social">
+          <p>Follow Us on</p><a href=""><img src="img/icon-face.png" alt="Facebook" title="Facebook"></a><a href=""><img src="img/icon-twitter.png" alt="Twitter" title="Twitter"></a><a href=""><img src="img/icon-g+.png" alt="Google+" title="Google+"></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <div>
+          <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
+          <p class="right">Power by <img src="img/silk.png" alt="" title=""></p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function(){
+        var menuItems = $('.main-navigation li');
+
+        menuItems.on("click", function(event) {
+          classElement = $(this).attr("id");
+          menuItems.removeClass("active");
+          
+          $(this).addClass("active");
+          
+          $(".main-content article").removeClass("active");
+          $(".main-content ."+classElement).addClass("active");
+          event.preventDefault();
+        });
+      })
+    </script>
+  </body>
+</html>
