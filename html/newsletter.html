@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
-    <!-- link(rel="stylesheet" type="text/css" href="style.css")-->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet/less" type="text/css" href="style.less">
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
@@ -35,10 +35,10 @@
       </nav>
     </header>
     <div class="wrapper">
-      <p class="breadcumb"><a href="">Home</a><i>B.M.N.H Courses</i></p>
-      <header>
+      <p class="breadcumb"><a href="">Home</a><span>B.M.N.H Courses</span></p>
+      <p class="banner">
         <img src="img/courses-banner.jpg" alt="" title="">
-      </header>
+      </p>
       <session class="mainContent">
         <p>
           Braybrook Maidstone Neighbourhood House invites you to subscribe today to our new electronic newsletter, simply provide us with your name and email details and we will send you regular updates on our Newsletter.<br/>
@@ -70,7 +70,7 @@
               </feComponentTransfer>
               <feGaussianBlur stdDeviation="1"/>
                <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
-              <feOffset dx="5" dy="1" result="shadow"/>
+              <feOffset dx="1" dy="-2" result="shadow"/>
               <feComposite in="SourceGraphic" />
             </filter>
                 
@@ -96,16 +96,16 @@
               
           </defs>
           
-            <path id="tab-shape" class="tab-shape" d="M116.486,29.036c-23.582-8-14.821-29-42.018-29h-62.4C5.441,0.036,0,5.376,0,12.003v28.033h122v-11H116.486z" />
+            <path id="tab-shape" class="tab-shape" d="M116.486,29.036c-23.582-8-14.821-25-42.018-29h-62.4C0.441,0.036,0,0,0,12.003v28.033h122v-11H116.486z" />
           
         </svg>
 
-        <nav role="navigation" class="main-navigation">
+        <nav role="navigation" class="main-navigation-tab">
           <ul>
             <li id="tab-1" class="tab-1 active" data-bg-color="rgba(118, 160, 192, 1.0)">
               <a href="#home">
                 <span>THE BRAYSTONE</span>
-                <svg viewBox="0 0 162 40">
+                <svg viewBox="0 0 122 40">
                    <use xlink:href="#tab-shape"></use>
                 </svg>
               </a>
@@ -137,7 +137,7 @@
           </ul>
         </nav>
 
-        <div class="main-content">
+        <div class="main-content-tab">
           <article class="tab-1 active">
             <img src="img/braystone.jpg" alt="braystone" title="braystone">
           </article>
@@ -150,10 +150,11 @@
           <article class="tab-4">
             <img src="img/services.jpg" alt="services" title="services">
           </article>
+          
+        </div>
           <p class="download">
             <button type="button"><img src="img/download.png" alt="download" title="download"></button>
           </p>
-        </div>
       </session>
     </div>
 
@@ -198,9 +199,10 @@
         </div>
       </div>
     </footer>
+    <img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top">
     <script>
       $(document).ready(function(){
-        var menuItems = $('.main-navigation li');
+        var menuItems = $('.main-navigation-tab li');
 
         menuItems.on("click", function(event) {
           classElement = $(this).attr("id");
@@ -208,10 +210,26 @@
           
           $(this).addClass("active");
           
-          $(".main-content article").removeClass("active");
-          $(".main-content ."+classElement).addClass("active");
+          $(".main-content-tab article").removeClass("active");
+          $(".main-content-tab ."+classElement).addClass("active");
           event.preventDefault();
         });
+
+         $("#toTop").css("display", "none");
+         $(window).scroll(function(){
+           if($(window).scrollTop() > 0){
+             $("#toTop").fadeIn("slow");
+           }
+           else {
+              $("#toTop").fadeOut("slow");
+           }
+         });
+         $("#toTop").click(function(){
+           event.preventDefault();
+           $("html, body").animate({
+            scrollTop:0
+           },"slow");
+          });
       })
     </script>
   </body>

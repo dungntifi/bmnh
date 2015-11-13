@@ -42,62 +42,47 @@ html(lang="vi")
 		div.wrapper
 			p.breadcumb
 				a(href="") Home
-				i B.M.N.H Courses
-			div.banner
-				img(src="img/courses-banner.jpg" alt="" title="")
-				h2 B.M.N.H COURSES
-			session.mainContent.course
-				article.monday.grey
-					p.dayWeek monday
-					h3 BMNH PLAYGROUP
-					p Come along and join the B.M.N.H. playgroup and connect with other mothers. Share a light lunch and friendship. Every Monday, school terms only 10.30 am - 12.30 pm Free.
-					h3 DIGITAL LITERACY
-					h3 BASIC COMPUTER TRAINING
-					p Monday 1:00 pm - 3:00 pm ongoing throughout 2015, phone for bookings    9317 5610.
-					h3 CRAFT & JEWELLERY MAKING
-					p Craft & Jewellery classes every Monday afternoon. 
-					p Ongoing 1:00 pm-3:00 pm Cost $3.
-					p Starting Monday July 6th until December 14th.
-				article.tuesday.grey
-					p.dayWeek tuesday
+				i B.M.N.H Contact Us
 
-					h3 CULTURAL COOKING
-					p 11:00 am-1.00 pm
-					p Learn to cook from cultures of the world. Participate in preparing and sharing a meal, third Tuesday of every month. Each month we will be cooking a different dish from different cultures. Cost $5 includes meal. Please phone for bookings. July 21st August 18th, September 15th, October 20th, November 16th   Ring 9317 5610 for bookings.
-					h3 COOKING FOR THE ELDERLY
-					p Every 4th Tuesday of each month, join in this class for social engagement and participation. Please ring for bookings Time 11:00 am-1.00 pm. Starts 28th July, August 25th, September 22nd, October 27th, November 24th. 
-				article.wednesday.blue
-					p.dayWeek wednesday
-					h3 VIETNAMESE COOKING CLASS
-					p Course starts Wednesday 15th July at 12.30 pm for term 3 and 4, phone for more details regarding Bookings. 
-					h3 MOSAICS
-					p Learn how to make a mosaic working with colourful tiles to make a piece of art. Every Wednesday.
-					p Ongoing 10:00 am - 12:00 pm Cost $3.
-				article.blue
-					p.dayWeek.thursday thursday
-					p.s DROP IN DAY
-					p.dayWeek.saturday saturday
-					h3 BASIC MATHS TUITION
-					p Graded school years with Mr Le, children must be accompanied by a parent or adult.
-					p Every Saturday school term only 12.30 pm-2.30 pm. Cost $10.
-					h3 FREE BREAD ON MONDAYS
-					p Come into the BMNH for free bread on Mondays. 1:00 pm-3:00 pm only, donated by Bakers Delight Sunshine.
-					h3 MATHS TUITION
-					p Graded School Years with Mr Le, All children must be accompanied by a Parent or Adult.
-					p Every Tuesday: 5.30 pm -7.30 pm. 
-					p Cost $10, School term only.
-					h3 ADVANCED DIPLOMA IN DISABILITY
-					p Training Friday once per month
-					p Starting 10th July-11th December
-					p Ring Natalie 1300 275 282.
-					h3 table tennis & indoor bowls
-					p Every Saturday whether it is for fun or training, families welcome bookings only. Please phone for more details bookings essential 9317 5610.
-				article.friday.grey
-					p.dayWeek friday
-					h3 WALKING GROUP
-					p A leisurely 1 hour walks to the Maribyrnong River. Arrive at 9.50 am for a 10:00 am start. Every Friday until December 21st cost Free. For Information ring 9317 5610.
-					h3 FRIDAY LUNCH EXCURSIONS 11:00 am 
-					p Last Friday of every month, transport provided to members. Ongoing until December 19th.
+			session.mainContent.contact
+				p.title Contact us
+				p Thank you for your interest in Braybrook Maidstone Neighbourhood House Inc For fundraising and general enquiries, please contact:
+				p Phone: 03 9317 5610
+				p Email: office@bmnh.org.au
+				p Address: 113 Melon Street, Braybrook 3019
+				p.title OPENING HOURS:
+				p
+				p Public Holiday: Closed
+				p Or Alternatively Fill Out Enquiries Form Below:
+				form
+					div
+						label(for="firstName") First name
+							span *
+						input#firstName(type="text")
+					div
+						label(for="lasttName") Last name
+							span *
+						input#lasttName(type="text")
+					div
+						label(for="email") Email
+							span *
+						input#email(type="email")
+					div
+						label(for="subject") Subject
+							span *
+						input(type="text")
+					div
+						label(for="message") Message
+							span *
+						textarea#message
+					div
+						input(type="submit" value="submit")
+						span + *Required Fields
+				div.map
+					p We Are Here 
+
+
+
 			session.sidebar
 				div.formSubcribe
 					h3 eNewsletter
