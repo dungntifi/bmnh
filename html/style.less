@@ -1,73 +1,4 @@
-html {
-	font-size: 62.5%;
-}
-body{
-	background: url(img/bg-body.png) repeat left top;
-	header{
-		&+div{
-			background: #fff;
-			overflow: hidden;
-		}
-	}
-}
-*, *:before, *:after {
-	margin: 0px;
-	padding: 0px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	
-}
-@font-face {
-    font-family: 'mvboli';
-    src: url('fonts/MVBoli.eot'); /* IE9 Compat Modes */
-    src: url('fonts/MVBoli.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/MVBoli.woff') format('woff'), /* Modern Browsers */
-         url('fonts/MVBoli.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'trebuchet-ms';
-    src: url('fonts/TrebuchetMS.eot'); /* IE9 Compat Modes */
-    src: url('fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/TrebuchetMS.woff') format('woff'), /* Modern Browsers */
-         url('fonts/TrebuchetMS.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-@font-face {
-    font-family: 'century-gothic';
-    src: url('fonts/CenturyGothic.eot'); /* IE9 Compat Modes */
-    src: url('fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/CenturyGothic.woff') format('woff'), /* Modern Browsers */
-         url('fonts/CenturyGothic.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-@font-face {
-    font-family: 'UTM AvoBold';
-    src: url('fonts/UTMAvoBold.eot'); /* IE9 Compat Modes */
-    src: url('fonts/UTMAvoBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('fonts/UTMAvoBold.woff') format('woff'), /* Modern Browsers */
-         url('fonts/UTMAvoBold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: bold;
-    text-rendering: optimizeLegibility;
-}
-.clear{
-	clear: both;
-}
-a {
-	text-decoration: none;
-}
-li.active a{
-    font-weight: bold !important;
-}
+@import 'template/common.less';
 .menu-collapser {
     position: relative;
     color: #FFF;
@@ -81,6 +12,8 @@ li.active a{
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-indent: 35px;
+    text-transform: uppercase;
+    
 }
 .collapse-button {
     position: absolute;
@@ -158,6 +91,7 @@ ul.slimmenu li .sub-collapser, ul.slimmenu2 li .sub-collapser {
     text-align: center;
     z-index: 999;
     cursor: pointer;
+    display: none;
 }
 ul.sub-menu li a {
     line-height: 35px !important;
@@ -223,8 +157,6 @@ ul.slimmenu.collapsed li, ul.slimmenu2.collapsed li {
 }
 ul.slimmenu.collapsed li a, ul.slimmenu2.collapsed li a {
     display: block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
-
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box
@@ -237,7 +169,7 @@ ul.slimmenu.collapsed li > ul, ul.slimmenu2.collapsed li > ul {
     position: static;
 }
 
-@media all and (max-width: 1024px) {
+@media only screen and (max-width: 415px) {
     ul.slimmenu li > ul, ul.slimmenu2 li > ul {
         width: 100%;
     }
@@ -578,7 +510,7 @@ cursor: pointer;
 }
 /* End postStyle4 */
 /* Start tab */
-@import url(http://fonts.googleapis.com/css?family=Oswald);
+/* @import url(http://fonts.googleapis.com/css?family=Oswald);
 @import url(http://fonts.googleapis.com/css?family=Cabin);
 .main-navigation-tab {
   overflow: hidden;
@@ -658,7 +590,7 @@ cursor: pointer;
   .tab-4 {
     z-index: 1;
   }
-/*  &::after {
+&::after {
     content: "";
     position: absolute;
     bottom: 16px;
@@ -667,7 +599,7 @@ cursor: pointer;
     height: 12px;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
     z-index: 5;
-  }*/
+  }
 }
 
 .main-content-tab {
@@ -699,8 +631,118 @@ cursor: pointer;
     color: rgba(118, 160, 192, 1.0);
     margin: 0 0 0.5rem 0;
   }
-}
+} */
 /* End tab */
+/*Start tab 2*/
+.newsletter{
+	position: relative;
+	
+}
+ul.tabs {
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 54px;
+  padding-left: 8px;
+	width: 100%;
+}
+
+ul.tabs li {
+  background: #fff;
+  box-shadow: -5px -3px 6px #e3e3e3;
+  border-top-left-radius: 10px;
+  display: inline-block;
+  padding-left: 20px;
+	color: #1e42b0;
+	float: left;
+	margin: 0;
+	cursor: pointer;
+	height: 54px;
+	line-height: 60px;
+	font-family: 'century-gothic';
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+	overflow: hidden;
+	position: relative;
+  &+li{
+    background-color: #fff;
+    background: url(img/bg-tab-r.png) no-repeat left -4px;
+  }
+	&:nth-child(1){
+    padding-left: 20px;
+	}
+	&:not(:first-child){
+    
+		margin-left: -5px;
+    span{
+      background: #fff;
+      display: inline-block;
+      margin-left: 5px;
+      height: 100%;
+    }
+	}
+  &:last-child{
+    background: url(http://localhost/bmnh_project/img/bg-tab-last.png) no-repeat left -4px;
+    width: 10px;
+    font-size: 0;
+    margin-left: -37px;
+    margin-top: -5px;
+    box-shadow: none;
+    z-index: 99999999999 !important;
+  }
+  
+}
+
+ul.tabs li:hover {
+	color: #f4b60e;
+}
+
+ul.tabs li.active {
+ /*  background-image: url(img/bg-tab-r2.png); */
+  background-image: url(img/bg-tab-middle.png);
+  background-repeat: no-repeat;
+  background-position: right -4px;
+	background-color: #f1efef;
+	color: #f4b60e;
+  z-index: 9999 !important;
+  span{
+    background: #f1efef;
+  }
+  &+li{
+    i{
+      background: url(img/bg-tab-active-r.png) no-repeat left -4px !important;
+      background-size: auto 100%;
+      display: inline-block;
+      height: 100%;
+      width: 35px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+.tab_container {
+	
+	margin-top: -10px;
+	width: 100%;
+	padding: 0 8px;
+	position: relative;
+	z-index: 9;
+}
+
+.main-content-tab {
+	background: url(img/bg-tab-content.png) repeat-x left top;
+	display: block;
+	padding: 30px 30px;
+	box-shadow: 0 8px 11px #828282;
+}
+
+.tab_drawer_heading { display: none; }
+
+ /*End tab 2  */
 .breadcumb{
 	padding: 15px 0 10px 5px;
 	a, span{
@@ -727,8 +769,8 @@ cursor: pointer;
 		font-size: 3.2rem;
 		font-weight: bold;
 		position: absolute;
-		top: 10px;
-		right: 10px;
+		top: 17px;
+		right: 20px;
 		text-shadow:
 	       	0px 0px 5px #fff,
 	      	0 0 5px #fff,
@@ -747,17 +789,31 @@ p.download{
 	button{
 		background: #fff;
 		border: none;
+    cursor: pointer;
 	}
 }
 #toTop {
- position: fixed;
-bottom: 165px;
+ position: absolute;
     right: 100px;
  z-index: 99999999999999;
+ cursor:pointer;
+ &.mobile{
+ 	display: none !important;
+ }
+ &.desktop{
+ 	top: 5px;
+ }
+}
+.bg{
+	background: #fff;
+	height: 50px;
 }
 .wrapper{
 	max-width: 962px;
 	margin: 0px auto;
+  &.index{
+    padding-bottom: 50px;
+  }
 }
 #header{
 	background: url(img/bg-header.jpg) no-repeat center center;
@@ -905,18 +961,31 @@ bottom: 165px;
 			padding-bottom: 50px;
 		}
 	}
+
 	&.course{
 		background: #e6e6e5;
 		position: relative;
-		article{
-			float: left;
-			margin-bottom: 15px;
-			padding: 15px 13px 50px;
 
+		.col1{
+			background: #e6e6e5;
+			float: left;
+			height: 100%;
 			width: 338px;
-			&:nth-child(even){
-				float: right;
-				margin-left: 13px;
+		}
+		.col2{
+			background: #fff;
+			float: right;
+			padding-left: 14px;
+			width: 352px;
+		}
+		article{
+			background: #fff;
+			padding-top: 12px;
+			&:nth-child(1){
+				padding-top: 40px;
+			}
+			div{
+				padding: 0px 13px 50px;
 			}
 			h3{
 				font-family: 'century-gothic';
@@ -969,10 +1038,22 @@ bottom: 165px;
 				
 			}
 			&.blue{
-				background: #cfedf7;
+				div{
+					background: #cfedf7;
+				}
+        &:nth-of-type(2){
+          div{
+            padding-bottom: 0;
+          }
+        }
+        &:nth-of-type(3){
+          padding-top: 0;
+        }
 			}
 			&.grey{
-				background: #e6e6e5;
+				div{
+					background: #e6e6e5;
+				}
 			}
 			&.monday{
 				p.dayWeek{
@@ -1023,6 +1104,7 @@ bottom: 165px;
 	}
 	&.about,
 	&.contact{
+    padding-bottom: 50px;
 		li, p{
 			color: #5d5d5d;
 			font-family: 'century-gothic';
@@ -1033,6 +1115,9 @@ bottom: 165px;
 				font-weight: bold;
 			}
 		}
+    &+aside{
+        padding-bottom: 50px;
+      }
 	}
 	&.contact{
 		form{
@@ -1060,7 +1145,7 @@ bottom: 165px;
 					color: #5c5c5b;
 					font-family: 'century-gothic';
 					font-size: 1.3rem;
-					height:25px;
+					height:35px;
 					width: 100%;
 					padding: 0 5px;
 				}
@@ -1091,10 +1176,12 @@ bottom: 165px;
 			}
 		}
 		.map{
+      padding-bottom: 50px;
 			p{
 				color: #1e42b0;
 				font-family: 'UTM AvoBold';
 				font-size: 1.5rem;
+        padding-bottom: 15px;
 			}
 		}
 	}
@@ -1260,8 +1347,8 @@ footer{
 	border-top: 4px solid #f4b60e;
 	background: #282828;
 	clear: both;
-	margin-top: 50px;
 	overflow: hidden;
+	position: relative;
 	#bottomNav{
 		ul{
 			border-bottom: 1px solid #3a3a3a;
@@ -1358,225 +1445,4 @@ footer{
 	}
 }
 
-@media all and (max-width: 321px){
-	img.love{
-		width: 150px;
-		left: 15px;
-	}
-	.jssorb13{
-		display: none;
-	}
-	.formSearch{
-		bottom: 7px;
-	}
-	.postStyle4{
-		background-position: 0px 170px;
-		height: 440px;
-		width: 152px;
-		&:nth-child(3n-1){
-			margin: 0;
-		}
-		/* &:nth-child(3n+1){
-			margin: 0;
-		} */
-		&:nth-child(even){
-			margin-left: 6px;
-		}
-		&>a.readmore{
-			bottom: 20px;
-		}
-		p{
-			line-height: 1.2;
-			padding-top: 10px;
-		}
-	}
-	header#header{
-		height: 155px;
-		&+div{
-			background: #fff;
-			overflow: hidden;
-		}
-		#logo{
-			bottom: 35px;
-		    left: 0px;
-		    img{
-		    	width: 130px;
-		    }
-		}
-		.wrapper{
-			.slogan{
-				font-size: 1.3rem;
-			    font-weight: bold;
-			    width: 200px;
-			    text-align: right;
-			    line-height: 1.5; 
-			    height: auto;
-		        top: 15px;
-			    right: 10px;
-			}
-			.donate a{
-				font-size: 1.3rem;
-			    top: 68px;
-			    background-size: 95px;
-			    background-position: 40px center;
-			    right: 10px;
-			}
-		}
-		#topNav{
-			height: 40px;
-			ul.slimmenu{
-				display: none;
-				
-				padding-left: 0;
-				li{
-					&:first-child{
-						padding-left: 10px;
-					}
-					&:not(:first-child){
-						margin-left: 0;
-					}
-					background: #282828 !important;
-					z-index: 99999999999999;
-					.sub-collapser{
-						display: none;
-						
-					}
-					.sub-menu{
-						display: block !important;
-						position: initial;
-					    margin-top: 0px; 
-						
-					}
-				}
-			}
-		}
-		.formSearch{
-			bottom: 7px;
-		}
-	}
-	.wrapper{
-		width: 100%;
-	}
-	.mainContent{
-		padding: 0 5px;
-		width: 100%;
-		&.course{
-			article{
-				width: 100%;
-			}
-		}
-		p{
-			&:first-child{
-				padding-top: 0;
-			}
-			&:last-of-type{
-				padding-bottom: 20px;
-			}
-		}
-	}
-	.sidebar{
-		width: 100%;
-		.formSubcribe {
-			form {
-				position: relative;
-				.name{
-					width: 142px;
-				}
-				i{
-					position: absolute;
-				    bottom: 25px;
-				    left: 110px;
-				}
-				span{
-					position: absolute;
-				    bottom: 13px;
-				    left: 108px
-				}
-			}
-		}
-		.communnityLunch{
-			background-size: 100% 100%;
-			height: 450px;
-		    margin: 15px 10px;
-		    padding-bottom: 100px;
-		}
-		.sponsor{
-			padding:0px 5px;
-			article{
-				padding: 10px 0;
-				overflow: hidden;
-				&>div{
-					float: right;
-					width: 170px;
-				}
-				&>a{
-					float: left;
-					width: 140px;
-				}
-			}
-		}
-	}
-	footer{
-		.wrapper{
-			padding: 0 5px;
-		}
-		#bottomNav{
-			padding: 0 5px;
-			ul{
-				line-height: normal;
-			    height: inherit;
-			    padding: 10px 0;
-				width: 100%;
-				li{
-					&:not(:first-child):after{
-						padding: 0px 8px;
-					}
-					a{
-						font-size: 1.3rem;
-					}
-				}
-			}
-		}
-		.contact{
-			font-size: 1.2rem;
-		}
-		.openHour{
-			font-size: 1.2rem;
-			margin-left: 0;
-		}
-		.social{
-			position: absolute;
-			right: 5px;
-		}
-		.copyright{
-			padding-left: 5px;
-			p{
-				font-size: .8rem;
-				&.right{
-					img{
-						width: 90px;
-					    margin-top: 10px;
-					}
-				}
-			}
-			div{
-				width: 100%;
-			}
-		}
-	}
-	.main-navigation-tab{
-		ul{
-			li{
-				margin-left: -1rem;
-				width: 55px;
-				a{
-					font-size: .8rem;
-					text-indent: 1.6rem;
-					span{
-						padding-left: 0;
-					}
-				}
-			}
-		}
-	}
-}
+@import 'template/responsive.less';

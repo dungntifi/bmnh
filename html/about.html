@@ -4,36 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- link(rel="stylesheet" type="text/css" href="style.css")-->
     <link rel="stylesheet/less" type="text/css" href="style.less">
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
   </head>
   <body>
-    <header id="header">
-      <div class="wrapper">
-        <p class="slogan">The Braybrook Maidstone Neighbourhood House Inc</p>
-        <p class="donate"><a href="#">03 9317 5610</a></p>
-        <h1 id="logo"><a href=""><img src="img/logo.png" alt="logo" title="logo"></a></h1>
-        <div class="formSearch">
-          <form>
-            <input type="text" placeholder="Search..." class="search_top">
-            <input type="submit" name="submit" value="Search">
-          </form>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <title>Neighbourhood</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <!--link(rel="stylesheet/less" type="text/css" href="style.less")-->
+      <script src="js/jquery-1.11.1.min.js"></script>
+      <script src="js/less.js"></script>
+      <script src="js/jquery.easing.min.js"></script>
+      <script src="js/jquery.slimmenu.js"></script>
+      <script src="js/jssor.js"></script>
+      <script src="js/jssor.slider.js"></script>
+    </head>
+    <body>
+      <header id="header">
+        <div class="wrapper">
+          <p class="slogan">The Braybrook Maidstone Neighbourhood House Inc</p>
+          <p class="donate"><a href="#">03 9317 5610</a></p>
+          <h1 id="logo"><a href=""><img src="img/logo.png" alt="logo" title="logo"></a></h1>
+          <div class="formSearch">
+            <form>
+              <input type="text" placeholder="Search..." class="search_top">
+              <input type="submit" name="submit" value="Search">
+            </form>
+          </div>
         </div>
-      </div>
-      <nav id="topNav">
-        <ul class="slimmenu">
-          <li><a href="">About Us</a></li>
-          <li><a href="">Courses</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Newsletter</a></li>
-          <li><a href="">Events</a></li>
-          <li><a href="">Sponsors</a></li>
-          <li><a href="">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
+        <nav id="topNav">
+          <ul class="slimmenu">
+            <li><a href="">About Us</a>
+              <ul class="sub-menu">
+                <li><a href="">Meet The Board</a></li>
+                <li><a href="">About The House</a></li>
+              </ul>
+            </li>
+            <li><a href="">Courses</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Sponsors</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </body>
     <div class="wrapper">
       <p class="breadcumb"><a href="">Home</a><span>B.M.N.H About</span></p>
       <div class="banner"><img src="img/about.jpg" alt="" title=""></div>
@@ -69,7 +89,7 @@
           <li>To liaise with and offer support to other community initiatives that are consistent with the purpose of the Association.</li>
         </ul>
       </session>
-      <session class="sidebar">
+      <aside class="sidebar">
         <div class="formSubcribe">
           <h3>eNewsletter</h3>
           <form>
@@ -126,8 +146,8 @@
               <p class="des">B.M.N.H Would like to thank Silk Media Point Cook for their…<a href="" class="readmore">More</a></p>
             </div><a href=""><img src="img/silk.png" alt="" title=""></a>
           </article>
-        </div>
-      </session>
+        </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="mobile">
+      </aside>
     </div>
     <footer>
       <nav id="bottomNav">
@@ -168,7 +188,8 @@
           <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
           <p class="right">Power by <img src="img/silk.png" alt="" title=""></p>
         </div>
-      </div>
+      </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="desktop">
     </footer>
+    <script src="js/custom.js"></script>
   </body>
 </html>

@@ -8,8 +8,6 @@
     <link rel="stylesheet/less" type="text/css" href="style.less">
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.slimmenu.js"></script>
   </head>
   <body>
     <header id="header">
@@ -26,12 +24,7 @@
       </div>
       <nav id="topNav">
         <ul class="slimmenu">
-          <li><a href="">About Us</a>
-            <ul class="sub-menu">
-              <li><a href="">Meet The Board</a></li>
-              <li><a href="">About The House</a></li>
-            </ul>
-          </li>
+          <li><a href="">About Us</a></li>
           <li><a href="">Courses</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Newsletter</a></li>
@@ -62,45 +55,106 @@
             <input type="submit" name="submit" value="Subscribe"><span>Your privacy is protected</span><i>Subscribe to received our newsletter</i>
           </form>
         </div>
-
       </session>
       <div class="clear"></div>
       <session class="newsletter">
-        <div>
-          <ul class="tabs">
-            <li style="z-index: 5" class="active" rel="tab1"><span>THE BRAYSTONE</span><i></i></li>
-            <li style="z-index: 4" rel="tab2"><span>B.M.N.H TRAINING</span><i></i></li>
-            <li style="z-index: 3" rel="tab3"><span>B.M.N.H COURSES</span><i></i></li>
-            <li style="z-index: 2" rel="tab4"><span>B.M.N.H SERVICES</span><i></i></li>
-            <li style="z-index: 1" rel="tab4">b</li>
+        <svg height="0" width="0" style="position: absolute; margin-left: -100%;">
+  
+          <defs>
+            
+            <filter id='shadow'>
+              <feComponentTransfer in="SourceGraphic">
+                <feFuncR type="discrete" tableValues="0"/>
+                <feFuncG type="discrete" tableValues="0"/>
+                <feFuncB type="discrete" tableValues="0"/>
+              </feComponentTransfer>
+              <feGaussianBlur stdDeviation="1"/>
+               <feComponentTransfer><feFuncA type="linear" slope="0.2"/></feComponentTransfer>
+              <feOffset dx="1" dy="-2" result="shadow"/>
+              <feComposite in="SourceGraphic" />
+            </filter>
+                
+            <linearGradient id="tab-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(241,239,239, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-2-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(241,239,239, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-3-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(61, 149, 218, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+            
+            <linearGradient id="tab-4-bg" x1="0%" y1="0%" x2="0%" y2="65%">
+              <stop offset="0%" style="stop-color: rgba(72, 204, 243, 1.0);" />
+              <stop offset="100%" style="stop-color: rgba(245,244,244, 1.0);" />
+            </linearGradient>
+              
+          </defs>
+          
+            <path id="tab-shape" class="tab-shape" d="M116.486,29.036c-23.582-8-14.821-25-42.018-29h-62.4C0.441,0.036,0,0,0,12.003v28.033h122v-11H116.486z" />
+          
+        </svg>
+
+        <nav role="navigation" class="main-navigation-tab">
+          <ul>
+            <li id="tab-1" class="tab-1 active" data-bg-color="rgba(118, 160, 192, 1.0)">
+              <a href="#home">
+                <span>THE BRAYSTONE</span>
+                <svg viewBox="0 0 122 40">
+                   <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-2" class="tab-2" data-bg-color="rgba(112, 153, 213, 1.0)">
+              <a href="#about">
+                <span>B.M.N.H TRAINING </span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-3" class="tab-3" data-bg-color="rgba(43, 130, 197, 1.0)">
+              <a href="#clients">
+                <span>B.M.N.H COURSES</span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
+            <li id="tab-4" class="tab-4" data-bg-color="rgba(71, 194, 243, 1.0)" data-content="test">
+              <a href="#contact">
+                <span>B.M.N.H SERVICES</span>
+                <svg viewBox="0 0 122 40">
+                  <use xlink:href="#tab-shape"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-          <div class="tab_container">
-            <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
-            <div id="tab1" class="main-content-tab">
-              <img src="img/braystone.jpg" alt="braystone" title="braystone">
-            </div>
-            <!-- #tab1 -->
-            <div id="tab2" class="main-content-tab">
-              <img src="img/training.jpg" alt="training" title="training">
-            </div>
-            <!-- #tab2 -->
-            <div id="tab3" class="main-content-tab">
-              <img src="img/courses.jpg" alt="courses" title="courses">
-            </div>
-            <!-- #tab3 -->
-            <div id="tab4" class="main-content-tab">
-              <img src="img/services.jpg" alt="services" title="services">
-            </div>
-            <!-- #tab4 --> 
-          </div>
+        </nav>
+
+        <div class="main-content-tab">
+          <article class="tab-1 active">
+            <img src="img/braystone.jpg" alt="braystone" title="braystone">
+          </article>
+          <article class="tab-2">
+            <img src="img/training.jpg" alt="training" title="training">
+          </article>
+          <article class="tab-3">
+            <img src="img/courses.jpg" alt="courses" title="courses">
+          </article>
+          <article class="tab-4">
+            <img src="img/services.jpg" alt="services" title="services">
+          </article>
+          
         </div>
-        
-<!-- .tab_container -->
           <p class="download">
             <button type="button"><img src="img/download.png" alt="download" title="download"></button>
-            <img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="mobile">
           </p>
-          <div class="clear"></div>
       </session>
     </div>
 
@@ -149,45 +203,18 @@
     
     <script>
       $(document).ready(function(){
-        jQuery('ul.slimmenu').slimmenu({resizeWidth: '1024',collapserTitle: 'Menu',easingEffect:null,animSpeed:'medium',indentChildren: false,childrenIndenter: 'Menu;',});
-    $(".main-content-tab").hide();
-    $(".main-content-tab:first").show();
+        var menuItems = $('.main-navigation-tab li');
 
-  /* if in tab mode */
-    
-    $("ul.tabs li:not(:last-child)").click(function() {
-    
-      $(".main-content-tab").hide();
-      var activeTab = $(this).attr("rel"); 
-      $("#"+activeTab).fadeIn();    
-    
-      $("ul.tabs li").removeClass("active");
-      $(this).addClass("active");
-
-    $(".tab_drawer_heading").removeClass("d_active");
-    $(".tab_drawer_heading[rel^='"+activeTab+"']").addClass("d_active");
-    
-    });
-  /* if in drawer mode */
-  $(".tab_drawer_heading").click(function() {
-      
-      $(".main-content-tab").hide();
-      var d_activeTab = $(this).attr("rel"); 
-      $("#"+d_activeTab).fadeIn();
-    
-    $(".tab_drawer_heading").removeClass("d_active");
-      $(this).addClass("d_active");
-    
-    $("ul.tabs li").removeClass("active");
-    $("ul.tabs li[rel^='"+d_activeTab+"']").addClass("active");
-    });
-  
-  
-  /* Extra class "tab_last" 
-     to add border to right side
-     of last tab */
-  $('ul.tabs li').last().addClass("tab_last");
-  
+        menuItems.on("click", function(event) {
+          classElement = $(this).attr("id");
+          menuItems.removeClass("active");
+          
+          $(this).addClass("active");
+          
+          $(".main-content-tab article").removeClass("active");
+          $(".main-content-tab ."+classElement).addClass("active");
+          event.preventDefault();
+        });
 
          $("#toTop").css("display", "none");
          $(window).scroll(function(){

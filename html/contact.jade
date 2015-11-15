@@ -1,49 +1,18 @@
 doctype html
 html(lang="vi")
 	head
-		meta(charset="UTF-8")
-		meta(name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0")
-		title Neighbourhood
-		// link(rel="stylesheet" type="text/css" href="style.css")
-		link(rel="stylesheet/less" type="text/css" href="style.less")
-		script(src="js/jquery-1.11.1.min.js")
-		script(src="js/less.js")
+		include template/head.jade
 	body
 		header#header
-			div.wrapper
-				p.slogan The Braybrook Maidstone Neighbourhood House Inc
-				p.donate
-					a(href="#") 03 9317 5610
-				h1#logo
-					a(href="")
-						img(src="img/logo.png" alt="logo" title="logo")
-				div.formSearch
-					form
-						input.search_top(type="text" placeholder="Search...")
-						input(type="submit" name="submit" value="Search")
-			nav#topNav
-				ul.slimmenu
-					li
-						a(href="") About Us
-					li
-						a(href="") Courses
-					li
-						a(href="") Services
-					li
-						a(href="") Newsletter
-					li
-						a(href="") Events
-					li
-						a(href="") Sponsors
-					li
-						a(href="") Contact Us
+			include template/header.jade
 			
 			
 		div.wrapper
 			p.breadcumb
 				a(href="") Home
-				i B.M.N.H Contact Us
-
+				span B.M.N.H Contact Us
+			div.banner
+				img(src="img/banner-contact.jpg" alt="" title="")
 			session.mainContent.contact
 				p.title Contact us
 				p Thank you for your interest in Braybrook Maidstone Neighbourhood House Inc For fundraising and general enquiries, please contact:
@@ -79,115 +48,15 @@ html(lang="vi")
 						input(type="submit" value="submit")
 						span + *Required Fields
 				div.map
-					p We Are Here 
+					p We Are Here
+					div
+						<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29540921.532936193!2d135.745076!3d-25.335448!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1447441506168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 
-			session.sidebar
-				div.formSubcribe
-					h3 eNewsletter
-					form
-						input.name(type="text" placeholder="First name..." name="firstName")
-						input.name(type="text" placeholder="Last name..." name="lastName")
-						input.email(type="text" placeholder="Email..." name="email")
-						input(type="submit" name="submit" value="Subscribe")
-						span Your privacy is protected
-						i Subscribe to received our newsletter
-				div.communnityLunch
-					h3 B.M.S.P.T.A <br/> Community Lunches
-					p
-						span BI – MONTHLY
-					ul
-						li Wednesday  September 16th
-						li Wednesday  November 18th 12:30 pm Guest Speaker
-						li Thursday December 17th 12:00 pm Christmas Party
-
-					p
-						span ANNUAL GENERAL MEETING
-					ul
-						li Thursday 15th October 6:00 pm R.S.V.P. by 12th October
-				div.sponsor
-					h3 B.M.N.H Sponsors
-					article
-						div
-							header
-								h2
-									a(href="") BMS Public Tenants Assoc
-							p.des BMSPTA is a centre for a variety of programs and activities…
-								a(href="").readmore More
-						a(href="")
-							img(src="img/sponsor.jpg" alt="" title="")
-					article
-						div
-							header
-								h2
-									a(href="") BMS Public Tenants Assoc
-							p.des BMSPTA is a centre for a variety of programs and activities…
-								a(href="").readmore More
-						a(href="")
-							img(src="img/sponsor.jpg" alt="" title="")
-					article
-						div
-							header
-								h2
-									a(href="") BMS Public Tenants Assoc
-							p.des BMSPTA is a centre for a variety of programs and activities…
-								a(href="").readmore More
-						a(href="")
-							img(src="img/sponsor.jpg" alt="" title="")
-					article
-						div
-							header
-								h2
-									a(href="") Silk media
-							p.des B.M.N.H Would like to thank Silk Media Point Cook for their…
-								a(href="").readmore More
-						a(href="")
-							img(src="img/silk.png" alt="" title="")
+			aside.sidebar
+				include template/sidebar.jade
 
 		footer
-			nav#bottomNav
-				ul.slimmenu2
-					li
-						a(href="") About Us 
-					li
-						a(href="") Courses
-					li
-						a(href="") Services
-					li
-						a(href="") Newsletter
-					li
-						a(href="") Events
-					li
-						a(href="") Sponsors
-					li
-						a(href="") Contact Us
-					li
-						a(href="") FAQs  I  Unsubscribe Newsletter
-					li
-						a(href="") Privacy Policy
-			div.wrapper
-				div.contact
-					p Contact us:
-					ul
-						li 113 Melon Street, Braybrook 3019
-						li Phone: 03 9317 5610
-						li Email: office@bmnh.org.au
-						li ABN 73 967 833 454
-				div.openHour
-					p open hour:
-					ul
-						li Monday to Thursday 9:00 am – 4:00 pm  
-				div.social
-					p Follow Us on
-					a(href="")
-						img(src="img/icon-face.png" alt="Facebook" title="Facebook")
-					a(href="")
-						img(src="img/icon-twitter.png" alt="Twitter" title="Twitter")
-					a(href="")
-						img(src="img/icon-g+.png" alt="Google+" title="Google+")
-			div.copyright
-				div
-					p.left Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved
-					p.right Power by 
-						img(src="img/silk.png" alt="" title="")
+			include template/footer.jade
+		script(src="js/custom.js")

@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <!--link(rel="stylesheet/less" type="text/css" href="style.less")-->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.slimmenu.js"></script>
+    <script src="js/jssor.js"></script>
+    <script src="js/jssor.slider.js"></script>
   </head>
   <body>
     <header id="header">
@@ -24,7 +28,12 @@
       </div>
       <nav id="topNav">
         <ul class="slimmenu">
-          <li><a href="">About Us</a></li>
+          <li><a href="">About Us</a>
+            <ul class="sub-menu">
+              <li><a href="">Meet The Board</a></li>
+              <li><a href="">About The House</a></li>
+            </ul>
+          </li>
           <li><a href="">Courses</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Newsletter</a></li>
@@ -35,68 +44,86 @@
       </nav>
     </header>
     <div class="wrapper">
-      <p class="breadcumb"><a href="">Home</a><i>B.M.N.H Courses</i></p>
+      <p class="breadcumb"><a href="">Home</a><span>B.M.N.H Courses</span></p>
       <div class="banner"><img src="img/courses-banner.jpg" alt="" title="">
         <h2>B.M.N.H COURSES</h2>
       </div>
       <session class="mainContent course">
-        <article class="monday grey">
-          <p class="dayWeek">monday</p>
-          <h3>BMNH PLAYGROUP</h3>
-          <p>Come along and join the B.M.N.H. playgroup and connect with other mothers. Share a light lunch and friendship. Every Monday, school terms only 10.30 am - 12.30 pm Free.</p>
-          <h3>DIGITAL LITERACY</h3>
-          <h3>BASIC COMPUTER TRAINING</h3>
-          <p>Monday 1:00 pm - 3:00 pm ongoing throughout 2015, phone for bookings    9317 5610.</p>
-          <h3>CRAFT & JEWELLERY MAKING</h3>
-          <p>Craft & Jewellery classes every Monday afternoon. </p>
-          <p>Ongoing 1:00 pm-3:00 pm Cost $3.</p>
-          <p>Starting Monday July 6th until December 14th.</p>
-        </article>
-        <article class="tuesday grey">
-          <p class="dayWeek">tuesday</p>
-          <h3>CULTURAL COOKING</h3>
-          <p>11:00 am-1.00 pm</p>
-          <p>Learn to cook from cultures of the world. Participate in preparing and sharing a meal, third Tuesday of every month. Each month we will be cooking a different dish from different cultures. Cost $5 includes meal. Please phone for bookings. July 21st August 18th, September 15th, October 20th, November 16th   Ring 9317 5610 for bookings.</p>
-          <h3>COOKING FOR THE ELDERLY</h3>
-          <p>Every 4th Tuesday of each month, join in this class for social engagement and participation. Please ring for bookings Time 11:00 am-1.00 pm. Starts 28th July, August 25th, September 22nd, October 27th, November 24th. </p>
-        </article>
-        <article class="wednesday blue">
-          <p class="dayWeek">wednesday</p>
-          <h3>VIETNAMESE COOKING CLASS</h3>
-          <p>Course starts Wednesday 15th July at 12.30 pm for term 3 and 4, phone for more details regarding Bookings. </p>
-          <h3>MOSAICS</h3>
-          <p>Learn how to make a mosaic working with colourful tiles to make a piece of art. Every Wednesday.</p>
-          <p>Ongoing 10:00 am - 12:00 pm Cost $3.</p>
-        </article>
-        <article class="blue">
-          <p class="dayWeek thursday">thursday</p>
-          <p class="s">DROP IN DAY</p>
-          <p class="dayWeek saturday">saturday</p>
-          <h3>BASIC MATHS TUITION</h3>
-          <p>Graded school years with Mr Le, children must be accompanied by a parent or adult.</p>
-          <p>Every Saturday school term only 12.30 pm-2.30 pm. Cost $10.</p>
-          <h3>FREE BREAD ON MONDAYS</h3>
-          <p>Come into the BMNH for free bread on Mondays. 1:00 pm-3:00 pm only, donated by Bakers Delight Sunshine.</p>
-          <h3>MATHS TUITION</h3>
-          <p>Graded School Years with Mr Le, All children must be accompanied by a Parent or Adult.</p>
-          <p>Every Tuesday: 5.30 pm -7.30 pm. </p>
-          <p>Cost $10, School term only.</p>
-          <h3>ADVANCED DIPLOMA IN DISABILITY</h3>
-          <p>Training Friday once per month</p>
-          <p>Starting 10th July-11th December</p>
-          <p>Ring Natalie 1300 275 282.</p>
-          <h3>table tennis & indoor bowls</h3>
-          <p>Every Saturday whether it is for fun or training, families welcome bookings only. Please phone for more details bookings essential 9317 5610.</p>
-        </article>
-        <article class="friday grey">
-          <p class="dayWeek">friday</p>
-          <h3>WALKING GROUP</h3>
-          <p>A leisurely 1 hour walks to the Maribyrnong River. Arrive at 9.50 am for a 10:00 am start. Every Friday until December 21st cost Free. For Information ring 9317 5610.</p>
-          <h3>FRIDAY LUNCH EXCURSIONS 11:00 am </h3>
-          <p>Last Friday of every month, transport provided to members. Ongoing until December 19th.</p>
-        </article>
+        <div class="col col1">
+          <article class="monday grey">
+            <div>
+              <p class="dayWeek">monday</p>
+              <h3>BMNH PLAYGROUP</h3>
+              <p>Come along and join the B.M.N.H. playgroup and connect with other mothers. Share a light lunch and friendship. Every Monday, school terms only 10.30 am - 12.30 pm Free.</p>
+              <h3>DIGITAL LITERACY</h3>
+              <h3>BASIC COMPUTER TRAINING</h3>
+              <p>Monday 1:00 pm - 3:00 pm ongoing throughout 2015, phone for bookings    9317 5610.</p>
+              <h3>CRAFT & JEWELLERY MAKING</h3>
+              <p>Craft & Jewellery classes every Monday afternoon. </p>
+              <p>Ongoing 1:00 pm-3:00 pm Cost $3.</p>
+              <p>Starting Monday July 6th until December 14th.</p>
+            </div>
+          </article>
+          <article class="wednesday blue">
+            <div>
+              <p class="dayWeek">wednesday</p>
+              <h3>VIETNAMESE COOKING CLASS</h3>
+              <p>Course starts Wednesday 15th July at 12.30 pm for term 3 and 4, phone for more details regarding Bookings. </p>
+              <h3>MOSAICS</h3>
+              <p>Learn how to make a mosaic working with colourful tiles to make a piece of art. Every Wednesday.</p>
+              <p>Ongoing 10:00 am - 12:00 pm Cost $3.</p>
+            </div>
+          </article>
+          <article class="friday grey">
+            <div>
+              <p class="dayWeek">friday</p>
+              <h3>WALKING GROUP</h3>
+              <p>A leisurely 1 hour walks to the Maribyrnong River. Arrive at 9.50 am for a 10:00 am start. Every Friday until December 21st cost Free. For Information ring 9317 5610.</p>
+              <h3>FRIDAY LUNCH EXCURSIONS 11:00 am </h3>
+              <p>Last Friday of every month, transport provided to members. Ongoing until December 19th.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col col2">
+          <article class="tuesday grey">
+            <div>
+              <p class="dayWeek">tuesday</p>
+              <h3>CULTURAL COOKING</h3>
+              <p>11:00 am-1.00 pm</p>
+              <p>Learn to cook from cultures of the world. Participate in preparing and sharing a meal, third Tuesday of every month. Each month we will be cooking a different dish from different cultures. Cost $5 includes meal. Please phone for bookings. July 21st August 18th, September 15th, October 20th, November 16th   Ring 9317 5610 for bookings.</p>
+              <h3>COOKING FOR THE ELDERLY</h3>
+              <p>Every 4th Tuesday of each month, join in this class for social engagement and participation. Please ring for bookings Time 11:00 am-1.00 pm. Starts 28th July, August 25th, September 22nd, October 27th, November 24th. </p>
+            </div>
+          </article>
+          <article class="blue">
+            <div>
+              <p class="dayWeek thursday">thursday</p>
+              <p class="s">DROP IN DAY</p>
+            </div>
+          </article>
+          <article class="blue">
+            <div>
+              <p class="dayWeek saturday">saturday</p>
+              <h3>BASIC MATHS TUITION</h3>
+              <p>Graded school years with Mr Le, children must be accompanied by a parent or adult.</p>
+              <p>Every Saturday school term only 12.30 pm-2.30 pm. Cost $10.</p>
+              <h3>FREE BREAD ON MONDAYS</h3>
+              <p>Come into the BMNH for free bread on Mondays. 1:00 pm-3:00 pm only, donated by Bakers Delight Sunshine.</p>
+              <h3>MATHS TUITION</h3>
+              <p>Graded School Years with Mr Le, All children must be accompanied by a Parent or Adult.</p>
+              <p>Every Tuesday: 5.30 pm -7.30 pm. </p>
+              <p>Cost $10, School term only.</p>
+              <h3>ADVANCED DIPLOMA IN DISABILITY</h3>
+              <p>Training Friday once per month</p>
+              <p>Starting 10th July-11th December</p>
+              <p>Ring Natalie 1300 275 282.</p>
+              <h3>table tennis & indoor bowls</h3>
+              <p>Every Saturday whether it is for fun or training, families welcome bookings only. Please phone for more details bookings essential 9317 5610.</p>
+            </div>
+          </article>
+        </div>
       </session>
-      <session class="sidebar">
+      <aside class="sidebar">
         <div class="formSubcribe">
           <h3>eNewsletter</h3>
           <form>
@@ -153,8 +180,8 @@
               <p class="des">B.M.N.H Would like to thank Silk Media Point Cook for their…<a href="" class="readmore">More</a></p>
             </div><a href=""><img src="img/silk.png" alt="" title=""></a>
           </article>
-        </div>
-      </session>
+        </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="mobile">
+      </aside>
     </div>
     <footer>
       <nav id="bottomNav">
@@ -195,7 +222,8 @@
           <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
           <p class="right">Power by <img src="img/silk.png" alt="" title=""></p>
         </div>
-      </div>
+      </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="desktop">
     </footer>
+    <script src="js/custom.js"></script>
   </body>
 </html>

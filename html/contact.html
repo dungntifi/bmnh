@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <!--link(rel="stylesheet/less" type="text/css" href="style.less")-->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.slimmenu.js"></script>
+    <script src="js/jssor.js"></script>
+    <script src="js/jssor.slider.js"></script>
   </head>
   <body>
     <header id="header">
@@ -24,7 +28,12 @@
       </div>
       <nav id="topNav">
         <ul class="slimmenu">
-          <li><a href="">About Us</a></li>
+          <li><a href="">About Us</a>
+            <ul class="sub-menu">
+              <li><a href="">Meet The Board</a></li>
+              <li><a href="">About The House</a></li>
+            </ul>
+          </li>
           <li><a href="">Courses</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Newsletter</a></li>
@@ -35,7 +44,8 @@
       </nav>
     </header>
     <div class="wrapper">
-      <p class="breadcumb"><a href="">Home</a><i>B.M.N.H Contact Us</i></p>
+      <p class="breadcumb"><a href="">Home</a><span>B.M.N.H Contact Us</span></p>
+      <div class="banner"><img src="img/banner-contact.jpg" alt="" title=""></div>
       <session class="mainContent contact">
         <p class="title">Contact us</p>
         <p>Thank you for your interest in Braybrook Maidstone Neighbourhood House Inc For fundraising and general enquiries, please contact:</p>
@@ -72,10 +82,11 @@
           </div>
         </form>
         <div class="map">
-          <p>We Are Here </p>
+          <p>We Are Here</p>
+          <div><iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29540921.532936193!2d135.745076!3d-25.335448!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1447441506168" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
         </div>
       </session>
-      <session class="sidebar">
+      <aside class="sidebar">
         <div class="formSubcribe">
           <h3>eNewsletter</h3>
           <form>
@@ -132,8 +143,8 @@
               <p class="des">B.M.N.H Would like to thank Silk Media Point Cook for their…<a href="" class="readmore">More</a></p>
             </div><a href=""><img src="img/silk.png" alt="" title=""></a>
           </article>
-        </div>
-      </session>
+        </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="mobile">
+      </aside>
     </div>
     <footer>
       <nav id="bottomNav">
@@ -174,7 +185,8 @@
           <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
           <p class="right">Power by <img src="img/silk.png" alt="" title=""></p>
         </div>
-      </div>
+      </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="desktop">
     </footer>
+    <script src="js/custom.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <!--link(rel="stylesheet/less" type="text/css" href="style.less")-->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
     <script src="js/jquery.easing.min.js"></script>
@@ -44,10 +44,10 @@
         </ul>
       </nav>
     </header>
-    <div class="wrapper">
+    <div class="wrapper index">
       <session id="sliderCat">
-        <div id="slider1_container" style="height: 300px; overflow: hidden;">
-          <div u="slides" style="height: 300px; overflow: hidden;" class="slides-container">
+        <div id="slider1_container" style="height: 300px; width:960px; overflow: hidden;">
+          <div u="slides" style="height: 300px; width:960px; overflow: hidden;" class="slides-container">
             <div style="display: none;">
               <div class="imgSlider"><a href=""><img u="image" src="img/slider1.jpg" alt="" title=""></a>
                 <h2>THE BRAYSTONE</h2>
@@ -73,7 +73,7 @@
         <p>The BMNH is a non-profit and charitable institution. The central purpose of the BMNH is to provide direct relief from poverty, misfortune and helplessness to the residents of the Braybrook and Maidstone through the services it provides. </p>
         <p>Braybrook and Maidstone are routinely ranked amongst the most socio-economically disadvantaged areas in Victoria[1]. The BMNH is centrally focused on the direct provision of services which relieve the severe disadvantage and alleviate the poverty, misfortune and helplessness with which its members are burdened.</p>
       </session>
-      <session class="sidebar">
+      <aside class="sidebar order1">
         <div class="formSubcribe">
           <h3>eNewsletter</h3>
           <form>
@@ -96,64 +96,66 @@
             <li>Thursday 15th October 6:00 pm R.S.V.P. by 12th October</li>
           </ul>
         </div>
-      </session>
+      </aside>
       <session class="mainContent">
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article1.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">B.M.N.H Courses</a></h2>
-          </header>
-          <p class="des">Looking for something to do? Want to meet new people? Then come do a course at BMNH. Many of our courses are free, and cover areas ranging from gardening to craft to computing ... What are you waiting for? </p><a href="" class="readmore">Read More</a>
-        </article>
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article2.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">B.M.N.H Services</a></h2>
-          </header>
-          <p class="des">FREE Financial & Legal Counselling in Braybrook. Footscray Legal Service is providing free financial counselling to residents at the Braybrook Maidstone Neighbourhood House every Monday 9:00 am – 4:00 pm. </p><a href="" class="readmore">Read More</a>
-        </article>
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article3.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">B.M.N.H Training</a></h2>
-          </header>
-          <p class="des">Training for Advanced Diploma of Disability will commence at the Braybrook and Maidstone Neighbourhood House on Friday July 10th at 10:00 am. Once per month ongoing throughout...</p><a href="" class="readmore">Read More</a>
-        </article>
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article3.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">B.M.N.H Volunteer</a></h2>
-          </header>
-          <p class="des">Volunteering is a great way to learn new skills, meet new people and participate in your community. </p><a href="" class="readmore">Read More</a>
-        </article>
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article4.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">Room For Hire</a></h2>
-          </header>
-          <p class="des">We have an activity room for hire to suit meetings, workshops and social groups etc. The room is available for casual or ongoing bookings. We also have a computer Hub for hire with 11 computers and a kitchen for cooking lessons...</p><a href="" class="readmore">Read More</a>
-        </article>
-        <article class="postStyle4 effect-4 effects">
-          <div class="img"><a href=""><img src="img/article5.jpg" alt="" title=""></a>
-            <div class="overlay"><a href="" class="expand"></a></div>
-          </div>
-          <header>
-            <h2><a href="">Trading Table</a></h2>
-          </header>
-          <p class="des">Bring your unwanted goods and donate to the trading table. Goods must be in good condition. All proceeds go to the BMNH towards materials.</p><a href="" class="readmore">Read More</a>
-        </article>
+        <div>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article1.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">B.M.N.H Courses</a></h2>
+            </header>
+            <p class="des">Looking for something to do? Want to meet new people? Then come do a course at BMNH. Many of our courses are free, and cover areas ranging from gardening to craft to computing ... What are you waiting for? </p><a href="" class="readmore">Read More</a>
+          </article>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article2.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">B.M.N.H Services</a></h2>
+            </header>
+            <p class="des">FREE Financial & Legal Counselling in Braybrook. Footscray Legal Service is providing free financial counselling to residents at the Braybrook Maidstone Neighbourhood House every Monday 9:00 am – 4:00 pm. </p><a href="" class="readmore">Read More</a>
+          </article>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article3.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">B.M.N.H Training</a></h2>
+            </header>
+            <p class="des">Training for Advanced Diploma of Disability will commence at the Braybrook and Maidstone Neighbourhood House on Friday July 10th at 10:00 am. Once per month ongoing throughout...</p><a href="" class="readmore">Read More</a>
+          </article>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article3.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">B.M.N.H Volunteer</a></h2>
+            </header>
+            <p class="des">Volunteering is a great way to learn new skills, meet new people and participate in your community. </p><a href="" class="readmore">Read More</a>
+          </article>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article4.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">Room For Hire</a></h2>
+            </header>
+            <p class="des">We have an activity room for hire to suit meetings, workshops and social groups etc. The room is available for casual or ongoing bookings. We also have a computer Hub for hire with 11 computers and a kitchen for cooking lessons...</p><a href="" class="readmore">Read More</a>
+          </article>
+          <article class="postStyle4 effect-4 effects">
+            <div class="img"><a href=""><img src="img/article5.jpg" alt="" title=""></a>
+              <div class="overlay"><a href="" class="expand"></a></div>
+            </div>
+            <header>
+              <h2><a href="">Trading Table</a></h2>
+            </header>
+            <p class="des">Bring your unwanted goods and donate to the trading table. Goods must be in good condition. All proceeds go to the BMNH towards materials.</p><a href="" class="readmore">Read More</a>
+          </article>
+        </div>
       </session>
-      <session class="sidebar">
+      <aside class="sidebar order2">
         <div class="sponsor">
           <h3>B.M.N.H Sponsors</h3>
           <article>
@@ -188,8 +190,8 @@
               <p class="des">B.M.N.H Would like to thank Silk Media Point Cook for their…<a href="" class="readmore">More</a></p>
             </div><a href=""><img src="img/silk.png" alt="" title=""></a>
           </article>
-        </div>
-      </session>
+        </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="mobile">
+      </aside>
     </div>
     <footer>
       <nav id="bottomNav">
@@ -230,8 +232,8 @@
           <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
           <p class="right">Power by <img src="img/silk.png" alt="" title=""></p>
         </div>
-      </div>
+      </div><img id="toTop" src="img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="desktop">
     </footer>
-    <script>jQuery('ul.slimmenu').slimmenu({resizeWidth: '1024',collapserTitle: 'Menu',easingEffect:null,animSpeed:'medium',indentChildren: false,childrenIndenter: 'Menu;',});</script>
+    <script src="js/custom.js"></script>
   </body>
 </html>
