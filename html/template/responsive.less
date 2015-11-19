@@ -5,6 +5,13 @@
 	}
 }
 @media only screen and (max-width: 970px){
+	ul.tabs {
+		margin-top: 20px;
+		li:last-child {
+			background: url(img/bg-tab-last-r.png) no-repeat right -4px,url(img/bg-tab.png) no-repeat left -4px, ;
+			padding-right: 26px;
+		}
+	}
 	.wrapper{
 		width: 100%;
 		&.index{
@@ -442,72 +449,44 @@
 			}
 		}
 	}
-	ul.tabs li{
+	 ul.tabs li{
 		padding: 0px 29px 0 20px;
 		&.active{
 			&+li{
-				margin-left: -42px;
+				margin-left: -22px;
 			}
 		}
-	}
+	} 
 }
 
 
 @media only screen and (max-width: 420px){
-	.tab_container {
-	    margin-top: -19px;
+		.tab_container {
+	    margin-top: -18px;
 	}
-	ul.tabs li:nth-child(1) {
-	    padding: 0px 40px 0 15px;
-	}
-	ul{
-		&.tabs{
-			margin-top: 25px;
-			height: 45px;
-			li{
-        			background: url(img/bg-tab-r.png) no-repeat right -4px;
-				font-size: .7rem;
-				height: 33px;
-			    line-height: 40px;
-			    padding: 0px 40px 0 10px;
-				&:not(:first-child){
-				        margin-left: -29px;
+	ul.tabs li{
+		background-size: 100%;
+		font-size: .7rem;
+		height: 40px;
+		line-height: 44px;
+		padding: 0px 0px 0 20px;
+		&:not(:first-child) {
+			margin-left: -10px;
+			&.active{
+				margin-left: -9px;
+				&+li{
+					margin-left: -20px;
 				}
-				
-        &.active{
-          	background-image: url(http://localhost/bmnh_project/img/bg-tab-active.png);
-		    background-size: 100%;
-		    background-position: 0;
-		    background-color: rgba(0,0,0,0);
-        }
-        &:last-child{
-		    display: block;
-		    margin-left: -38px;
-          
-        }
 			}
 		}
-	}
-}
-@media only screen and (min-width: 321px) and (max-width: 375px){
-	ul.tabs li:nth-child(1) {
-	    padding-right: 35px;
-	}
-	ul.tabs li{
-		padding: 0px 35px 0 15px;
-	}
-	ul.tabs li:last-child {
-	    margin-left: -38px;
-	}
-}
-@media only screen and (max-width: 320px){
-	ul.tabs li:nth-child(1) {
-	    padding-right: 29px;
-	}
-	ul.tabs li{
-		padding: 0px 29px 0 10px;
-	}
-	ul.tabs li:last-child {
-	    margin-left: -38px;
+		&:first-child{
+			&.active{
+				margin-left: 4px;
+			    padding-right: 15px;
+			}
+		}
+		&.active{
+			padding-right: 15px;
+		}
 	}
 }

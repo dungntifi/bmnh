@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Neighbourhood</title>
-    <!-- link(rel="stylesheet" type="text/css" href="style.css")-->
-    <link rel="stylesheet/less" type="text/css" href="style.less">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet/less" type="text/css" href="style.less"> -->
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/less.js"></script>
     <script src="js/jquery.easing.min.js"></script>
@@ -72,25 +72,31 @@
             <li style="z-index: 4" rel="tab2"><span>B.M.N.H TRAINING</span><i></i></li>
             <li style="z-index: 3" rel="tab3"><span>B.M.N.H COURSES</span><i></i></li>
             <li style="z-index: 2" rel="tab4"><span>B.M.N.H SERVICES</span><i></i></li>
-            <li style="z-index: 1" rel="tab4">b</li>
+            <!-- <li style="z-index: 1" rel="tab4"><span>B</span><i></i></li> -->
           </ul>
           <div class="tab_container">
             <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
-            <div id="tab1" class="main-content-tab">
-              <img src="img/braystone.jpg" alt="braystone" title="braystone">
+            <div class="main-content-tab">
+              <img id="tab1" src="img/braystone.jpg" alt="braystone" title="braystone">
+
+              <img id="tab2" src="img/training.jpg" alt="training" title="training">
+
+              <img id="tab3" src="img/courses.jpg" alt="courses" title="courses">
+
+              <img id="tab4" src="img/services.jpg" alt="services" title="services">
             </div>
             <!-- #tab1 -->
-            <div id="tab2" class="main-content-tab">
+            <!-- <div id="tab2" class="main-content-tab">
               <img src="img/training.jpg" alt="training" title="training">
             </div>
-            <!-- #tab2 -->
+            #tab2
             <div id="tab3" class="main-content-tab">
               <img src="img/courses.jpg" alt="courses" title="courses">
             </div>
-            <!-- #tab3 -->
+            #tab3
             <div id="tab4" class="main-content-tab">
               <img src="img/services.jpg" alt="services" title="services">
-            </div>
+            </div> -->
             <!-- #tab4 --> 
           </div>
         </div>
@@ -150,14 +156,14 @@
     <script>
       $(document).ready(function(){
         jQuery('ul.slimmenu').slimmenu({resizeWidth: '1024',collapserTitle: 'Menu',easingEffect:null,animSpeed:'medium',indentChildren: false,childrenIndenter: 'Menu;',});
-    $(".main-content-tab").hide();
-    $(".main-content-tab:first").show();
+    $(".main-content-tab img").hide();
+    $(".main-content-tab img:first").show();
 
   /* if in tab mode */
     
-    $("ul.tabs li:not(:last-child)").click(function() {
+    $("ul.tabs li").click(function() {
     
-      $(".main-content-tab").hide();
+      $(".main-content-tab img").hide();
       var activeTab = $(this).attr("rel"); 
       $("#"+activeTab).fadeIn();    
     

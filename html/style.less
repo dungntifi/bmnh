@@ -510,129 +510,7 @@ cursor: pointer;
 }
 /* End postStyle4 */
 /* Start tab */
-/* @import url(http://fonts.googleapis.com/css?family=Oswald);
-@import url(http://fonts.googleapis.com/css?family=Cabin);
-.main-navigation-tab {
-  overflow: hidden;
-  position: relative;
-  padding: 0 0 0 1rem;
-    border-radius: 5px;
-  ul {
-  	margin-left: -5rem;
-    list-style: none;
-    padding: 0;
-  }
-  li {
-    bacground: #f1f1f1;
-    float: left;
-    width: 170px;
-    height: 5.25rem;
-    margin: 0 0;
-    position: relative;
-    &.active {
-    	svg{
-	        fill: url(#tab-bg);
-	    }
-	    a{
-	    	color: #f4b60e;
-	    }
-    	z-index: 6; 
-    }
-  }
-  a {
-    position: relative;
-    display: inline-block;
-    color: #1e42b0;
-    width: 100%;
-    height: 100%;
-    font-family: 'century-gothic';
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    line-height: 43px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
-  }
-  svg {
-  	fill: white;
-    width: 170%;
-    height: 200%;
-    // for tab shadows
-    // also screws up Firefox
-    filter: url(#shadow);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding-top: 10px;
-    pointer-events: none;
-  }
-  span {
-    position: relative;
-    padding: 1rem 0 0 4rem;
-    z-index: 2;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    margin-left: 30px;
-  }
-  .tab-1 {
-    z-index: 4;
-    span{
-    	margin-left: 20px;
-    }
-  }
-  .tab-2 {
-    z-index: 3;
-  }
-  .tab-3 {
-    z-index: 2;
-  }
-  .tab-4 {
-    z-index: 1;
-  }
-&::after {
-    content: "";
-    position: absolute;
-    bottom: 16px;
-    left: 0;
-    width: 798px;
-    height: 12px;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
-    z-index: 5;
-  }
-}
 
-.main-content-tab {
-	top: 16px;
-  position: relative;
-  z-index: 10;
-  background: linear-gradient(rgba(245,244,244, 1.0), rgba(255, 255, 255, 1.0));
-  margin: -1.6rem 0 0 0;
-  padding: 3rem;
-  border-radius: 15px;
-  border-top-left-radius: 0;
-    box-shadow: 0 5px 5px #c2c2c2;
-    article{
-      display: none;
-      &.active{
-        display: block;
-      }
-    }
-}
-
-.article {
-  background: white;
-  padding: 5rem;
-  border-radius: 8px;
-  h2 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    font-size: 3rem;
-    color: rgba(118, 160, 192, 1.0);
-    margin: 0 0 0.5rem 0;
-  }
-} */
-/* End tab */
 /*Start tab 2*/
 .newsletter{
 	position: relative;
@@ -644,19 +522,18 @@ ul.tabs {
 	padding: 0;
 	list-style: none;
 	height: 54px;
-  padding-left: 8px;
 	width: 100%;
 }
 
 ul.tabs li {
   background: #fff;
-  box-shadow: -5px -3px 6px #e3e3e3;
-  border-top-left-radius: 10px;
+  // box-shadow: -3px -3px 7px #c3c3c3;
+  // border-top-left-radius: 10px;
   display: inline-block;
   padding-left: 20px;
 	color: #1e42b0;
 	float: left;
-	margin: 0;
+	margin-left: -5px;
 	cursor: pointer;
 	height: 54px;
 	line-height: 60px;
@@ -665,33 +542,55 @@ ul.tabs li {
     text-transform: uppercase;
     font-size: 1.5rem;
 	overflow: hidden;
-	position: relative;
+	padding-left: 25px;
   &+li{
-    background-color: #fff;
-    background: url(img/bg-tab-r.png) no-repeat left -4px;
+    //background-color: #fff;
+    
   }
 	&:nth-child(1){
-    padding-left: 20px;
-	}
-	&:not(:first-child){
-    
-		margin-left: -5px;
-    span{
-      background: #fff;
-      display: inline-block;
-      margin-left: 5px;
-      height: 100%;
+    background: url(img/bg-tab-1.png) no-repeat left -4px;
+    margin-left: 0;
+    &.active{
+      background: url(img/bg-tab-active-1.png) no-repeat right -4px;
+      background-size: 100% 100%;
     }
 	}
+	&:not(:first-child){
+    background: url(img/bg-tab.png) no-repeat left -4px;
+    &.active{
+      margin-left: -15px;
+    }
+		// margin-left: -5px;
+    /* span{
+      background: #fff;
+      display: inline-block;
+      margin-left: 8px;
+      height: 100%;
+      border-top-right-radius: 5px;
+    } */
+	}
   &:last-child{
-    background: url(http://localhost/bmnh_project/img/bg-tab-last.png) no-repeat left -4px;
-    width: 10px;
-    font-size: 0;
-    margin-left: -37px;
-    margin-top: -5px;
-    box-shadow: none;
-    z-index: 99999999999 !important;
+    padding-right: 38px;
+    &.active{
+      background: url(img/bg-tab-active-last.png) no-repeat right -4px;
+      background-size: 100% 100%;
+    }
   }
+  /* &:last-child{
+    background: url(img/bg-tab-last.png) no-repeat right -4px;
+    width: 40px;
+    font-size: 0;
+    box-shadow: none;
+    margin-top: -5px;
+    margin-left: -8px;
+    position: relative;
+    i{
+      position: absolute;
+    }
+    span{
+      position: absolute;
+    }
+  } */
   
 }
 
@@ -701,16 +600,22 @@ ul.tabs li:hover {
 
 ul.tabs li.active {
  /*  background-image: url(img/bg-tab-r2.png); */
-  background-image: url(img/bg-tab-middle.png);
-  background-repeat: no-repeat;
-  background-position: right -4px;
-	background-color: #f1efef;
-	color: #f4b60e;
-  z-index: 9999 !important;
-  span{
-    background: #f1efef;
-  }
+  background: url(img/bg-tab-active.png) no-repeat right -4px;
+  padding-right: 30px;
+  background-size: 100% 100%;
   &+li{
+    margin-left: -33px;
+  }
+/*   background-repeat: no-repeat;
+background-position: right -4px; */
+	// background-color: #f1efef;
+	color: #f4b60e;
+  position: relative;
+  z-index: 9999 !important;
+  /* span{
+    background: #f1efef;
+  } */
+  /* &+li{
     i{
       background: url(img/bg-tab-active-r.png) no-repeat left -4px !important;
       background-size: auto 100%;
@@ -721,12 +626,12 @@ ul.tabs li.active {
       top: 0;
       left: 0;
     }
-  }
+  } */
 }
 
 .tab_container {
 	
-	margin-top: -10px;
+	margin-top: -4px;
 	width: 100%;
 	padding: 0 8px;
 	position: relative;
@@ -737,7 +642,7 @@ ul.tabs li.active {
 	background: url(img/bg-tab-content.png) repeat-x left top;
 	display: block;
 	padding: 30px 30px;
-	box-shadow: 0 8px 11px #828282;
+	box-shadow: 0 0px 11px #828282;
 }
 
 .tab_drawer_heading { display: none; }
