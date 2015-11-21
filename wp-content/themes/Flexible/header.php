@@ -77,5 +77,3 @@
         ?>
     </nav>
 </header>
-<div id="main-area">
-<?php do_action('et_header_menu'); ?>

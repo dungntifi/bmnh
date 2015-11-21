@@ -1,4 +1,3 @@
-</div>    <!-- end #main-area -->
 <footer>
     <nav id="bottomNav">
         <?php
@@ -29,19 +28,24 @@
         </div>
         <div class="social">
             <p>Follow Us on</p>
-            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-face.png" alt="Facebook" title="Facebook"></a>
-            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-twitter.png" alt="Twitter" title="Twitter"></a>
-            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-g+.png" alt="Google+" title="Google+"></a>
+            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-face.png" alt="Facebook"
+                            title="Facebook"></a>
+            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-twitter.png" alt="Twitter"
+                            title="Twitter"></a>
+            <a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icon-g+.png" alt="Google+"
+                            title="Google+"></a>
         </div>
     </div>
     <div class="copyright">
         <div>
             <p class="left">Copyright 2015 @ 2015 B.M.N.H. All Rights Reserved</p>
 
-            <p class="right">Power by <img src="<?php echo get_template_directory_uri(); ?>/img/silk.png" alt="" title=""></p>
+            <p class="right">Power by <img src="<?php echo get_template_directory_uri(); ?>/img/silk.png" alt=""
+                                           title=""></p>
         </div>
     </div>
-    <img id="toTop" src="<?php echo get_template_directory_uri(); ?>/img/icon-scroll.png" alt="Scroll to top" title="Scroll to top" class="desktop">
+    <img id="toTop" src="<?php echo get_template_directory_uri(); ?>/img/icon-scroll.png" alt="Scroll to top"
+         title="Scroll to top" class="desktop">
 </footer>
 <!--<footer id="main_footer" class="clearfix">-->
 <!--    <p id="copyright">--><?php //printf(__('Designed by %s | Powered by %s', 'Flexible'), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>'); ?><!--</p>-->

@@ -2,131 +2,677 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4ee0d7-4c50-4261-93f3-23e9f645dae4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/CenturyGothic.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/CenturyGothic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/CenturyGothic.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/CenturyGothic.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/MVBoli.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/MVBoli.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/MVBoli.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/Trebuchet MS.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/TrebuchetMS.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/TrebuchetMS.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/TrebuchetMS.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/TrebuchetMS.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/UTM AvoBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/UTMAvoBold.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/UTMAvoBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/UTMAvoBold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/about.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/article6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/b13.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/banner-contact.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-article.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-body.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-donat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-search-bt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-subscribe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active-last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active-middle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-active3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-content.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-last-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-last-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab-r2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/bg-tab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/braystone.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/century-gothic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/community.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/courses-banner.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/courses.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/download.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/enewsletter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/friday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-breadcumb.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-face.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-g+.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-more-hover.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-more.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-scroll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-snow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/icon-twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/line.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/line2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/loading.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/logo-slider.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/monday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/mvboli.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/newsletter.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/saturday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/services.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/silk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/slider1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/sponsor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/subscribe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/thursday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/training.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/trebuchet-ms.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/tuesday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/ufonts.com_century-gothic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/img/wednesday.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/CenturyGothic.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/MVBoli.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/TrebuchetMS.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/UTMAvoBold.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/ads.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/common.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/footer.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/head.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/header.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/headlines.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/jquery.slimmenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/jssor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/jssor.slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-varian-1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-varian-2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-varian-3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-varian-4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/fonts/preview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/responsive.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/sidebar.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/sidebar1.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/template/sidebar2.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/slider-config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/slider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/js/sliderjs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/bg-tab-active.png" afterPath="$PROJECT_DIR$/html/img/bg-tab-active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/bg-tab-content.png" afterPath="$PROJECT_DIR$/html/img/bg-tab-content.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/bg-tab-last.png" afterPath="$PROJECT_DIR$/html/img/bg-tab-last.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/bg-tab.png" afterPath="$PROJECT_DIR$/html/img/bg-tab.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/newsletter.html" afterPath="$PROJECT_DIR$/html/newsletter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/template/responsive.less" afterPath="$PROJECT_DIR$/html/template/responsive.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style.css" afterPath="$PROJECT_DIR$/html/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/style.less" afterPath="$PROJECT_DIR$/html/style.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/HelperBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-detail.php" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\admin.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\edit_layers.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\font\egfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\font\egfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\font\egfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\font\egfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\font\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\css\tipsy.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\add_template.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\add_template_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\dotted_horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\dotted_vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\dummy.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-all.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-button-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-edit.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-image-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-plus.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-shape-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-text-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-trash.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon-video-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon_html5.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon_vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\icon_youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\imac.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\import_slider.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\install_slider.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\ipadair.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\logo_small.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\macbook.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\add_preset.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\auto.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\bullets.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\cssicon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\fullwidth.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\imageicon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\jqueryicon.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\linktoslide.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\mini-customizeslide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\mini-editslide.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\mini-implement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\openclose.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\showimage.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\tabs.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\thumbnails.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\mainoptions\tp_uparrow.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\navigationeditor\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\navigationeditor\tp_thumb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\new_slider.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\preview.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\rs_center.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\rs_rotate.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidebg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\carousel_full_rounded.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\carousel_thumbs_right_fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\cover_carousel_endless.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\cover_carousel_thumbs.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\flat_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\flat_carousel_thumbs.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\flat_carousel_thumbs_left.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\scroll_fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\slideshow_auto_layout.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\thumb_auto1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\thumbs_left_auto.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\thumbs_right_auto.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderpresets\wide_fullscreen.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderselector\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderselector\type_carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderselector\type_hero.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sliderselector\type_slider.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_defa.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_face.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_flic.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_inst.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_post.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_twit.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_vime.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_wooc.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\slidersources\tp_source_yout.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\fb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\fr.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\ig.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\notice.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\post.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\revolution_slide1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\revolution_slide2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\tw.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\vm.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\wc.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\sources\yt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tipsy.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\addlayer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\advancedcss.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\animate_in.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\animate_out.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\arrow_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\arrow_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\backtoidle.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\conflict.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\droplet_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\droplet_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\eye_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\eye_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-2drotation.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-add-duplicate.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-add-image.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-add-layer.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-add-video.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-align.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignbottom-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignbottom-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligncenterh-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligncenterh-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligncenterv-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligncenterv-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignleft-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignleft-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignright-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-alignright-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligntop-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-aligntop-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-basketball2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-bordercolor.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-borderradius.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-borderstyle.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-borderwidth.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-1-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-1-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-2-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-2-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-3-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-chooser-3-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-clock.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-close-big.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-close.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-color.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-decoration.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-easing.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-edit.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-edit_dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-fontfamily.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-fontsize.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-fonttemplate.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-fontweight.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-globe.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-italic.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-lineheight.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-link-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-link.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-maxheight.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-maxwidth.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-desktop-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-desktop-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-laptop-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-laptop-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-phone-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-phone-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-tablet-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-mode-tablet-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-originx.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-originy.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-padding.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-parallax.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-perspective.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rev-logo-mini-2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rev-logo-mini.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rotation-end.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rotation-start.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rotationx.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rotationy.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-rotationz.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-save-big.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-save-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-save-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-scalex.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-scaley.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-shortcode.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-skewx.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-skewy.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-slide-published.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-slide-unpublished.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-splittext-delay.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-splittext.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-transition.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-wrap-light.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-wrap.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-xoffset.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-yoffset.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\icon-zoffset.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\in_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\in_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\largearrow_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\layers_bg_tile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\lightcopy.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\lightpencil.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\lighttrash.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\morestyles_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\morestyles_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\newlinear-horizontal.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\newlinear-vertical.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\newlinear.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\out_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\out_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\plus_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\plus_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\plus_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\schematic_in.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\schematic_out.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\tiled-darkgrey.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\tiled-lightgrey.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\tiled-red.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\toolbar-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\tools_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\tools_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\visibility_black.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\toolbar\visibility_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tooltips\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tooltips\progressbar.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tooltips\slide_placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tooltips\slide_placeholder_cut.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\topbar.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tp-brokenimage.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\tp_newsletter_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\trans_tile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\trans_tile2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\transparent.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\visitstore.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\images\wp-arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classic-carousel\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\classicslider\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\contenttabs\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\contenttabs\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\contenttabs\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\contenttabs\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\contenttabs\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\facebook-feed\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\facebook-feed\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\facebook-feed\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\fashion\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\flickr-gallery\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\flickr-gallery\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\flickr-gallery\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\gym\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\gym\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\gym\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\gym\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\gym\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-carousel\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\highlight-showcase\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\imagehero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\imagehero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\imagehero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\insta-gallery\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\insta-gallery\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\insta-gallery\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\levanorestaurantbar\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slide7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\mainfeature\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-carousel-autoplay\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\media-gallery-two\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-bg-video\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-bg-video\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-bg-video\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery-post-based\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery-post-based\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery-post-based\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-gallery\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-hero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-hero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-hero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-video\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-video\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\news-video\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\newsletter-hero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\newsletter-hero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\newsletter-hero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\notgeneric\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slide9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography-carousel\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slide9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\photography\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\search-form-hero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\search-form-hero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\search-form-hero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slide9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\showcasecarousel\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\sportshero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\sportshero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\sportshero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\twitter-feed\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\twitter-feed\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\twitter-feed\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeo-gallery\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeo-gallery\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeo-gallery\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeohero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeohero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\vimeohero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark-hero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark-hero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark-hero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-dark\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-light-hero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-light-hero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\web-product-light-hero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\webproductlight\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtube-gallery\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtube-gallery\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtube-gallery\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtubehero\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtubehero\slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\imports\youtubehero\slider.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\css.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\closetag.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\dialog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\foldcode.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\formatting.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\javascript-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\loadmode.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\match-highlighter.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\multiplex.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\overlay.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\pig-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\runmode-standalone.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\runmode.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\search.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\searchcursor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\simple-hint.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\simple-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\util\xml-hint.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\codemirror\xml.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\css_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\edit_layers.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\edit_layers_timeline.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\jquery.tipsy.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\newvideo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\oldvideo.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\rev_admin.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\settings.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\tbld-3.9.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\tbld-4.3.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\assets\js\tbld.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\revslider-admin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\master-view.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\navigation-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\slide-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\slide-overview.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\slider-editor.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\slider-overview.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\system\dialog-copy-move.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\system\dialog-global-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\system\dialog-video.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\system\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\system\validation.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\create-slider.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\edit-slider.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slide-general-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slide-selector.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slide-stage.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slider-main-options.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\sliders-list.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slides-list.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\slides.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\template-selector.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\template-slider-selector.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\admin\views\templates\wpml-selector.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\backup\captions-original.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\backup\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\extension.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\external-sources.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\aq-resizer.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\base-admin.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\base-front.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\base.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\cssparser.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\db.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\elements-base.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\em-integration.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\functions-wordpress.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\functions.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\include-framework.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\newsletter.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\plugin-update.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\update.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\framework\wpml.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\globals.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\navigation.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\operations.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\output.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\slide.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\slider.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\template.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\tinybox.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\includes\widget.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-de_DE.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-de_DE.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-en_US.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-en_US.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-hu_HU.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-hu_HU.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-it_IT.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-it_IT.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-pl_PL.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-pl_PL.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-ru_RU.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-ru_RU.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-zh_CN.mo" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider-zh_CN.po" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\languages\revslider.pot" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\coloredbg.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\gridtile.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\gridtile_3x3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\gridtile_3x3_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\gridtile_white.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\fb.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\fr.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\ig.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\post.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\revolution_slide1.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\revolution_slide2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\tw.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\vm.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\wc.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\assets\sources\yt.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\css\closedhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\css\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\css\openhand.cur" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\css\settings.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\css\font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\css\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\fonts\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\font-awesome\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\css\helper.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\css\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\css\pe-icon-7-stroke.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\fonts\Pe-icon-7-stroke.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\fonts\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\pe-icon-7-stroke\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\revicons\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\fonts\revicons\revicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.carousel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.kenburn.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.layeranimation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.migration.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.navigation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.parallax.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.slideanims.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\revolution.extension.video.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.actions.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.kenburn.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.layeranimation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.migration.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.slideanims.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\extensions\source\revolution.extension.video.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\jquery.themepunch.enablelog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\jquery.themepunch.revolution.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\jquery.themepunch.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\source\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\source\jquery.themepunch.enablelog.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\source\jquery.themepunch.revolution.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\assets\js\source\jquery.themepunch.tools.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\public\revslider-front.class.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\release_log.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\revslider.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\plugins\revslider\uninstall.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\posts-varian-4.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\loop-page.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\loop-single.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\loop-single_project.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-blog.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-contact.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-full.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-gallery.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-login.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-search.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-sitemap.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\page-template-portfolio.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\taxonomy-project_category.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\template-page-projects.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\wpml-config.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/home.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/page.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/includes/functions/sidebars.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/includes/functions/sidebars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/simple-page-sidebars.php" afterPath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/simple-page-sidebars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/languages/simple-page-sidebars.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/languages/simple-page-sidebars.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/slider.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/slider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/Flexible/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/includes/widget-area.php" afterPath="$PROJECT_DIR$/wp-content/plugins/simple-page-sidebars/includes/widget-area.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\ads.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/contact-form.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\headlines.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/paragraph.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\posts-varian-1.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/community_lunches.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\posts-varian-2.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/sponsor.php" />
+      <change type="MOVED" beforePath="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder\posts-varian-3.php" afterPath="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/list_category.php" />
     </list>
     <ignored path="bmnh.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,43 +694,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/header.php">
+      <file leaf-file-name="builder.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.923077">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="77" selection-end-column="10" />
+            <state vertical-scroll-proportion="-19.615385">
+              <caret line="53" column="45" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/functions.php">
+      <file leaf-file-name="list_category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/list_category.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.735849">
-              <caret line="96" column="56" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
-              <folding>
-                <marker date="1447839889898" expanded="true" signature="22561:22635" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="61" />
+            <state vertical-scroll-proportion="60.153847">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/footer.php">
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35111877">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            <state vertical-scroll-proportion="-7.8461537">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="breadcrumbs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/includes/breadcrumbs.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="14.923077">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts-detail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6538463">
+              <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87068963">
+              <caret line="0" column="29021" selection-start-line="0" selection-start-column="29021" selection-end-line="0" selection-end-column="29021" />
               <folding />
             </state>
           </provider>
@@ -194,27 +758,37 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/home.php">
+      <file leaf-file-name="sponsor.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/sponsor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="79" column="91" selection-start-line="79" selection-start-column="91" selection-end-line="79" selection-end-column="91" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/style.css">
+      <file leaf-file-name="sidebars.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/includes/functions/sidebars.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="28314" selection-start-line="15" selection-start-column="28314" selection-end-line="15" selection-end-column="28314" />
+            <state vertical-scroll-proportion="-10.461538">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paragraph.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/paragraph.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.65384614">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -228,13 +802,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/style.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/plugins.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/loop-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/contact-form-sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/widget-image-field/widget-image-field.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/Flexible/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/contact-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/community_lunches.php" />
+        <option value="$PROJECT_DIR$/../funvl/protected/components/Params.php" />
+        <option value="$PROJECT_DIR$/../funvl/protected/components/HelperBase.php" />
+        <option value="$PROJECT_DIR$/../funvl/protected/components/FrontEndController.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/paragraph.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/HelperBase.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/BuilderHelper.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/list_category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/sponsor.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/includes/functions/sidebars.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-varian-4.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-detail.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/Flexible/style.css" />
       </list>
     </option>
   </component>
@@ -244,6 +839,9 @@
   </component>
   <component name="NamedScopeManager">
     <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -275,6 +873,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,18 +972,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmnh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bmnh" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Flexible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tt24" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\inc\builder" />
       <recent name="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible" />
       <recent name="E:\xampp\htdocs\bmnh\wp-content\themes\Flexible\js" />
     </key>
@@ -418,6 +1048,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0f4ee0d7-4c50-4261-93f3-23e9f645dae4" name="Default" comment="" />
@@ -431,13 +1064,14 @@
     <frame x="-8" y="-8" width="1370" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24889217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.776378" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25036928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -446,120 +1080,32 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="91" selection-start-line="79" selection-start-column="91" selection-end-line="79" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="28314" selection-start-line="15" selection-start-column="28314" selection-end-line="15" selection-end-column="28314" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/js/less.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/template/head.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="28314" selection-start-line="15" selection-start-column="28314" selection-end-line="15" selection-end-column="28314" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="79" column="91" selection-start-line="79" selection-start-column="91" selection-end-line="79" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kienvang/wp-content/themes/supernews/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8244406">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../kienvang/wp-content/themes/supernews/menu-primary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029259896">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/page-full.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/page-templates/block.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8777969">
           <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.263339">
-          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,11 +1113,178 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7607573">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/epanel/options_flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/../feroli/wp-content/themes/newshopping/inc/vendors/visualcomposer/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../feroli/wp-content/themes/newshopping/vc_templates/pbr_category_list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1256454">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.70223755">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6729776">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../feroli/wp-content/themes/newshopping/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.848537">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/simple-image-widget/simple-image-widget/simple-image-widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6538463">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/simple-image-widget/simple-image-widget/templates/widget.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/js/sliderjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.789127">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/js/slider-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8649094">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.26923">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="12" selection-start-line="106" selection-start-column="8" selection-end-line="113" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../funvl/protected/components/Params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08777969">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../funvl/protected/components/HelperBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../funvl/protected/components/FrontEndController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/contact-form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.03846">
+          <caret line="49" column="66" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thethao24h/app/protected/components/HelperBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.423077">
+          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="345" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../nv_tin/wp-content/themes/twentyfourteen-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="131" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/community_lunches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="152" column="8" selection-start-line="152" selection-start-column="8" selection-end-line="160" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../thethao24h/app/protected/components/MyHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1439950312824" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1439950312824" expanded="true" signature="-1:-1" placeholder="select * fro..." />
+            <marker date="1439950312824" expanded="true" signature="-1:-1" placeholder="select * fro..m_documents..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -579,9 +1292,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/functions.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/HelperBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="10" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bmnh_project/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="4246" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="29021" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/widget-image-field/widget-image-field.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="56.76923">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/page-templates/block.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="11.769231">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/loop-nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3076925">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/content-none.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/content-featured.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="19.615385">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="15.692307">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../onecoin/wp-content/themes/supernews/page-templates/teams.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="41.192307">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../diemthi/wp-content/themes/supernews/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
           <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="61" />
           <folding />
         </state>
@@ -589,26 +1406,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.735849">
-          <caret line="96" column="56" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
+        <state vertical-scroll-proportion="74.53846">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <marker date="1447839889898" expanded="true" signature="22561:22635" placeholder="..." />
+            <marker date="1448127489924" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.923077">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="77" selection-end-column="10" />
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/includes/functions/sidebars.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35111877">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/includes/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="14.923077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385">
+          <caret line="53" column="45" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/paragraph.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/list_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="60.153847">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/sponsor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/inc/builder/posts-detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6538463">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/Flexible/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87068963">
+          <caret line="0" column="29021" selection-start-line="0" selection-start-column="29021" selection-end-line="0" selection-end-column="29021" />
           <folding />
         </state>
       </provider>

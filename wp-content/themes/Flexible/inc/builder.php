@@ -19,38 +19,39 @@
 
 /**
  * Custom widgets for page builder.
- * 
+ *
  * @since  1.0.0
  */
+
 function flexible_builder_init() {
 
 	// Register ad builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/ads.php';
-	register_widget( 'SuperNews_Ads_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/contact-form.php';
+	register_widget( 'SuperNews_Contact_Builder' );
 
 	// Register slider builder.
 	require trailingslashit( get_template_directory() ) . 'inc/builder/slider.php';
 	register_widget( 'SuperNews_Slider_Builder' );
 
 	// Register headlines builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/headlines.php';
-	register_widget( 'SuperNews_Headlines_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/paragraph.php';
+	register_widget( 'SuperNews_Paragraph_Builder' );
 
 	// Register posts list builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/posts-varian-1.php';
-	register_widget( 'SuperNews_Posts_Varian1_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/community_lunches.php';
+	register_widget( 'SuperNews_Community_Lunches_Builder' );
 
 	// Register posts list builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/posts-varian-2.php';
-	register_widget( 'SuperNews_Posts_Varian2_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/sponsor.php';
+	register_widget( 'SuperNews_Sponsor_Builder' );
 
 	// Register posts list builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/posts-varian-3.php';
-	register_widget( 'SuperNews_Posts_Varian3_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/list_category.php';
+	register_widget( 'SuperNews_List_Category_Builder' );
 
 	// Register posts list builder.
-	require trailingslashit( get_template_directory() ) . 'inc/builder/posts-varian-4.php';
-	register_widget( 'SuperNews_Posts_Varian4_Builder' );
+	require trailingslashit( get_template_directory() ) . 'inc/builder/posts-detail.php';
+	register_widget( 'SuperNews_Posts_Builder' );
 
 }
 add_action( 'widgets_init', 'flexible_builder_init' );
