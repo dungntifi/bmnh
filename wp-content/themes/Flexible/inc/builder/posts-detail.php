@@ -43,7 +43,9 @@ class SuperNews_Posts_Builder extends WP_Widget
     function widget($args, $instance)
     {
         extract($args);
-        echo get_post_field('post_content', $instance['post']);
+        echo '<div class="post_content">';
+        echo wpautop(get_post_field('post_content', $instance['post']));
+        echo '</div>';
     }
 
     /**

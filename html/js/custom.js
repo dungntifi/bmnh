@@ -1,4 +1,4 @@
-jQuery('ul.slimmenu').slimmenu({resizeWidth: '1024',collapserTitle: 'Menu',easingEffect:null,animSpeed:'medium',indentChildren: false,childrenIndenter: 'Menu;',});
+jQuery('ul.slimmenu').slimmenu({resizeWidth: '1044',collapserTitle: 'Menu',easingEffect:null,animSpeed:'medium',indentChildren: false,childrenIndenter: 'Menu;',});
 // scroll to top
 /*$("#toTop").css("display", "none");
  $(window).scroll(function(){

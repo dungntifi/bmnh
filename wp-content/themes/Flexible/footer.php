@@ -50,6 +50,73 @@
 <!--<footer id="main_footer" class="clearfix">-->
 <!--    <p id="copyright">--><?php //printf(__('Designed by %s | Powered by %s', 'Flexible'), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>'); ?><!--</p>-->
 <!--</footer> <!-- end #main_footer -->
-<?php wp_footer(); ?>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+//        jQuery('ul.slimmenu').slimmenu({
+//            resizeWidth: '1024',
+//            collapserTitle: 'Menu',
+//            easingEffect: null,
+//            animSpeed: 'medium',
+//            indentChildren: false,
+//            childrenIndenter: 'Menu;',
+//        });
+        $(".main-content-tab img").hide();
+        $(".main-content-tab img:first").show();
+
+        /* if in tab mode */
+
+        $("ul.tabs li").click(function () {
+
+            $(".main-content-tab img").hide();
+            var activeTab = $(this).attr("rel");
+            $("#" + activeTab).fadeIn();
+
+            $("ul.tabs li").removeClass("active");
+            $(this).addClass("active");
+
+            $(".tab_drawer_heading").removeClass("d_active");
+            $(".tab_drawer_heading[rel^='" + activeTab + "']").addClass("d_active");
+
+        });
+        /* if in drawer mode */
+        $(".tab_drawer_heading").click(function () {
+
+            $(".main-content-tab").hide();
+            var d_activeTab = $(this).attr("rel");
+            $("#" + d_activeTab).fadeIn();
+
+            $(".tab_drawer_heading").removeClass("d_active");
+            $(this).addClass("d_active");
+
+            $("ul.tabs li").removeClass("active");
+            $("ul.tabs li[rel^='" + d_activeTab + "']").addClass("active");
+        });
+
+
+        /* Extra class "tab_last"
+         to add border to right side
+         of last tab */
+        $('ul.tabs li').last().addClass("tab_last");
+
+
+        $("#toTop").css("display", "none");
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 0) {
+                $("#toTop").fadeIn("slow");
+            }
+            else {
+                $("#toTop").fadeOut("slow");
+            }
+        });
+        $("#toTop").click(function () {
+            event.preventDefault();
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    });
+</script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 </body>
 </html>

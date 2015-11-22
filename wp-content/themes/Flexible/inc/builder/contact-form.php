@@ -46,7 +46,10 @@ class SuperNews_Contact_Builder extends WP_Widget
         // Display the ad banner.
         if ($instance['form_code']) {
             echo '<div class="formSubcribe">';
-            echo '<h3>eNewsletter</h3>';
+            if ($instance['title_widget'] != '') {
+                echo '<h3>' . stripslashes($instance['title_widget']) . '</h3>';
+            }
+
             echo do_shortcode(stripslashes($instance['form_code']));
             echo '</div>';
         }
@@ -63,6 +66,7 @@ class SuperNews_Contact_Builder extends WP_Widget
     {
 
         $instance = $new_instance;
+        $instance['title_widget'] = stripslashes($new_instance['title_widget']);
         $instance['form_code'] = stripslashes($new_instance['form_code']);
 
         return $instance;
@@ -78,12 +82,21 @@ class SuperNews_Contact_Builder extends WP_Widget
 
         // Default value.
         $defaults = array(
+            'title_widget' => '',
             'form_code' => '',
         );
 
         $instance = wp_parse_args((array)$instance, $defaults);
         ?>
 
+        <p>
+            <label for="<?php echo $this->get_field_id('title_widget'); ?>">
+                <?php _e('Title for widget:', 'Flexible'); ?>
+            </label>
+            <textarea class="widefat" name="<?php echo $this->get_field_name('title_widget'); ?>"
+                      id="<?php echo $this->get_field_id('title_widget'); ?>" cols="30"
+                      rows="6"><?php echo stripslashes($instance['title_widget']); ?></textarea>
+        </p>
         <p>
             <label for="<?php echo $this->get_field_id('form_code'); ?>">
                 <?php _e('Contact form Code:', 'Flexible'); ?>

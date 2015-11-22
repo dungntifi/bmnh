@@ -43,8 +43,9 @@ class SuperNews_Paragraph_Builder extends WP_Widget
     function widget($args, $instance)
     {
         extract($args);
-        echo stripslashes($instance['text']);
-        // Restore original Post Data.
+        echo '<div class="post_content">';
+        echo wpautop(stripslashes($instance['text']));
+        echo '</div>';
         wp_reset_postdata();
     }
 

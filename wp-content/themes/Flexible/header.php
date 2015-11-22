@@ -39,13 +39,9 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/less.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js" type="text/javascript"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slimmenu.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jssor.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jssor.slider.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/slider-config.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        document.documentElement.className = 'js';
-    </script>
-
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.js" type="text/javascript"></script>-->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.slider.js" type="text/javascript"></script>-->
+<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/slider-config.js" type="text/javascript"></script>-->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -72,6 +68,7 @@
                 'theme_location' => 'primary-menu',
                 'container' => '',
                 'menu_class' => 'slimmenu',
+                'menu_id' => 'navigation_main',
             )
         );
         ?>

@@ -47,6 +47,7 @@ class SuperNews_Sponsor_Builder extends WP_Widget
             'post_type' => 'sponsor',
             'orderby' => 'post_date',
             'order' => 'DESC',
+            'posts_per_page ' => 4,
             'tax_query' => array(
                 array(
                     'taxonomy' => 'sponsor_category',
@@ -71,12 +72,10 @@ class SuperNews_Sponsor_Builder extends WP_Widget
                         </div>
                         <a href="<?php echo the_permalink(); ?>"><?php echo the_post_thumbnail('small') ?></a>
                     </article>
-                </div>
                 <?php
             endwhile;
         endif;
         echo '</div>';
-
         // Restore original Post Data.
         wp_reset_postdata();
     }

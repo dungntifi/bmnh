@@ -4,119 +4,7 @@
 	    right: 250px;
 	}
 }
-@media only screen and (max-width: 970px){
-	ul.tabs {
-		margin-top: 20px;
-		li:last-child {
-			background: url(img/bg-tab-last-r.png) no-repeat right -4px,url(img/bg-tab.png) no-repeat left -4px, ;
-			padding-right: 26px;
-		}
-	}
-	.wrapper{
-		width: 100%;
-		&.index{
-			aside.order1{
-				&+session{
-					margin-bottom: 20px;
-				}
-			}
-		}
-	}
-		.banner{
-		padding: 0 5px;
-		h2{
-			font-size: 1.6rem;
-		}
-	}
-	p.download{
-		padding-top: 30px;
-		padding-bottom: 80px;
-	}
-	.map{
-    	padding-top: 20px;
-		iframe{
-			width: 100%;
-		}
-	}
-	img.love{
-		width: 150px;
-		left: 15px;
-	}
-	.jssorb13{
-		display: none;
-	}
-	
-	
-	.mainContent{
-		padding: 0 5px;
-		width: 100%;
-
-		&.course{
-			background: none;
-			&+aside{
-				padding-bottom: 80px;
-			}
-			div{
-				padding-bottom: 10px;
-			}
-			.col1{
-				width: 100%;
-			}
-			.col2{
-				padding-left: 0;
-				width: 100%;
-				article{
-					&:nth-child(1){
-						padding-top: 5px !important;
-					}
-				}
-			}
-			article{
-				padding-top: 5px !important;
-				padding-bottom: 0;
-				margin-bottom: 0;
-				width: 100%;
-				&:nth-child(1){
-					padding-top: 25px;
-				}
-				div{
-					padding-bottom: 10px;
-				}
-				p{
-					&.dayWeek{
-						padding: 20px 0;
-					}
-					&.s{
-						height: 70px;
-						line-height: 70px;
-					}
-				}
-			}
-		}
-		&.contact{
-			.map{
-				padding-bottom: 0px;
-			}
-			form{
-				width: 100%;
-				max-width: 600px;
-				margin: 0 auto;
-			}
-		}
-		p{
-			&:first-child{
-				padding-top: 0;
-			}
-			&:last-of-type{
-				padding-bottom: 20px;
-			}
-		}
-	    &.about{
-	      &+aside{
-	        padding-bottom: 80px;
-	      }
-	    }
-	}
+@media only screen and(max-width: 1044px){
 	header#header{
 		height: 155px;
 		&+div{
@@ -184,10 +72,131 @@
 			right: 5px;
 		}
 	}
-
-	.tab_container{
-		margin-top: -28px;
+}
+@media only screen and (max-width: 970px){
+	.tab_container {
+	    margin-top: -18px;
 	}
+	ul.tabs {
+		margin-left: -1px;
+		margin-top: 20px;
+		li{
+			&.active{
+				background-position: center -2px;
+			}
+			&:last-child {
+				background: url(img/bg-tab-last-r.png) no-repeat right -4px,url(img/bg-tab.png) no-repeat left -4px, ;
+				padding-right: 34px;
+			}
+		}
+	}
+	.wrapper{
+		width: 100%;
+		&.index{
+			aside.order1{
+				&+session{
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+		.banner{
+		padding: 0 5px;
+		h2{
+			font-size: 1.6rem;
+		}
+	}
+	p.download{
+		padding-top: 30px;
+		padding-bottom: 80px;
+	}
+	.map{
+    	padding-top: 20px;
+		iframe{
+			width: 100%;
+		}
+	}
+	img.love{
+		width: 150px;
+		left: 15px;
+	}
+	.jssorb13{
+		display: none;
+	}
+	
+	
+	.mainContent{
+		padding: 0 5px;
+		width: 100%;
+
+		&.course{
+			background: none;
+			margin-bottom: 0;
+			&+aside{
+				padding-bottom: 80px;
+			}
+			div{
+				padding-bottom: 10px;
+			}
+			.col1{
+				width: 100%;
+			}
+			.col2{
+				padding-left: 0;
+				width: 100%;
+				article{
+					&:nth-child(1){
+						padding-top: 5px !important;
+					}
+				}
+			}
+			article{
+				padding-top: 5px !important;
+				padding-bottom: 0;
+				margin-bottom: 0;
+				width: 100%;
+				&:nth-child(1){
+					padding-top: 25px;
+				}
+				div{
+					padding-bottom: 10px;
+				}
+				p{
+					&.dayWeek{
+						padding: 20px 0;
+					}
+					&.s{
+						height: 70px;
+						line-height: 70px;
+					}
+				}
+			}
+		}
+		&.contact{
+			.map{
+				padding-bottom: 0px;
+			}
+			form{
+				width: 100%;
+				max-width: 600px;
+				margin: 0 auto;
+			}
+		}
+		p{
+			&:first-child{
+				padding-top: 0;
+			}
+			&:last-of-type{
+				padding-bottom: 20px;
+			}
+		}
+	    &.about{
+	      &+aside{
+	        padding-bottom: 80px;
+	      }
+	    }
+	}
+
 	.sidebar{
 		&.order2{
 			padding-bottom: 50px;
@@ -196,15 +205,18 @@
 			margin-top: 0;
 			form {
 				position: relative;
-				.name{
-					float: left;
-					width: 49%;
+				&>span{
+					&:nth-child(1),
+					&:nth-child(2){
+						float: left;
+						width: 49% !important;
+					}
 					&:nth-child(2){
 						margin-left: 2%;
 					}
 				}
 				i,
-				span{
+				span.privacy{
 					display: inline;
 					padding-left: 10px;
 					position: inherit;
@@ -374,6 +386,7 @@
 		/* &:nth-child(3n+1){
 			margin: 0;
 		} */
+		
 		&:nth-child(even){
 			margin-left: 6px;
 		}
@@ -395,8 +408,12 @@
 					&>div{
 						max-width: 470px;
 						margin: auto;
+						width: 100%;
 					}
 					article{
+						&:nth-child(odd){
+							float: left;
+						}
 						&:nth-child(even){
 							float: right;
 						}
@@ -414,7 +431,7 @@
 			    bottom: 25px;
 			    left: 110px;
 			}
-			span{
+			span.privacy{
 				position: absolute !important;
 			    bottom: 13px;
 			    left: 108px
@@ -430,7 +447,7 @@
 	}
 	
 }
-/*@media only screen and (max-device-width: 415px){*/
+
 @media only screen and (max-width: 415px){
 	.sidebar{
 		.sponsor{
@@ -459,11 +476,39 @@
 	} 
 }
 
+@media only screen and (min-width: 421px) and (max-width: 970px){
+	ul.tabs li{
+		background-size: 100%;
+		font-size: .8rem;
+		height: 40px;
+		line-height: 44px;
+		padding: 0px 8px 0 20px;
+		&:not(:first-child) {
+			margin-left: -10px;
+			&.active{
+				margin-left: -9px;
+				&+li{
+					margin-left: -24px;
+				}
+			}
+		}
+		&:first-child{
+			&.active{
+				margin-left: 4px;
+			    padding-right: 20px;
+			    &+li{
+			    	margin-left: -23px;
+			    }
+			}
+		}
+		&.active{
+			padding-right: 20px;
+		}
+	}
+}
 
 @media only screen and (max-width: 420px){
-		.tab_container {
-	    margin-top: -18px;
-	}
+	
 	ul.tabs li{
 		background-size: 100%;
 		font-size: .7rem;
@@ -475,7 +520,7 @@
 			&.active{
 				margin-left: -9px;
 				&+li{
-					margin-left: -20px;
+					margin-left: -24px;
 				}
 			}
 		}
@@ -484,6 +529,9 @@
 				margin-left: 4px;
 			    padding-right: 15px;
 			}
+		}
+		&:last-child{
+			padding-right: 26px;
 		}
 		&.active{
 			padding-right: 15px;

@@ -1,7 +1,7 @@
-<div id="breadcrumbs">
+<p class="breadcumb">
 	<?php if(function_exists('bcn_display')) { bcn_display(); }
 		  else { ?>
-				<a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Home','Flexible') ?></a> <span class="raquo">&raquo;</span>
+				<a href="<?php bloginfo('url'); ?>"><?php esc_html_e('Home','Flexible') ?></a>
 
 				<?php if( is_tag() ) { ?>
 					<?php esc_html_e('Posts Tagged ','Flexible') ?><span class="raquo">&quot;</span><?php single_tag_title(); echo('&quot;'); ?>
@@ -45,8 +45,8 @@
 						$curauth = $wp_query->get_queried_object();
 					?>
 					<?php esc_html_e('Posts by ','Flexible'); echo ' ',$curauth->nickname; ?>
-				<?php } elseif (is_page()) { ?>
-					<?php elegant_titles(); ?>
+				<?php } elseif (is_page()) {?>
+					<?php echo '<span>';the_title();echo '</span>'; ?>
 				<?php }; ?>
 	<?php } ?>
-</div> <!-- end #breadcrumbs -->
+</p> <!-- end #breadcrumbs -->

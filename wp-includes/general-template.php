@@ -820,7 +820,7 @@ function _wp_render_title_tag() {
  * @param string $seplocation Optional. Direction to display title, 'right'.
  * @return string|void String on retrieve.
  */
-function wp_title( $sep = '&raquo;', $display = true, $seplocation = '' ) {
+function wp_title( $sep = '', $display = true, $seplocation = '' ) {
 	global $wp_locale, $page, $paged;
 
 	$m = get_query_var('m');

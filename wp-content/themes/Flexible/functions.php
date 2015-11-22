@@ -178,15 +178,6 @@ function et_load_flexible_scripts()
 {
     if (!is_admin()) {
         $template_dir = get_template_directory_uri();
-
-        wp_enqueue_script('superfish', $template_dir . '/js/superfish.js', array('jquery'), '1.0', true);
-        wp_enqueue_script('easing', $template_dir . '/js/jquery.easing.1.3.js', array('jquery'), '1.0', true);
-        wp_enqueue_script('flexslider', $template_dir . '/js/jquery.flexslider-min.js', array('jquery'), '1.0', true);
-        wp_enqueue_script('fitvids', $template_dir . '/js/jquery.fitvids.js', array('jquery'), '1.0', true);
-        wp_enqueue_script('quicksand', $template_dir . '/js/jquery.quicksand.js', array('jquery'), '1.0', true);
-        wp_enqueue_script('custom_script', $template_dir . '/js/custom.js', array('jquery'), '1.0', true);
-        wp_localize_script('custom_script', 'etsettings', array('ajaxurl' => admin_url('admin-ajax.php')));
-
         $admin_access = apply_filters('et_showcontrol_panel', current_user_can('switch_themes'));
         if ($admin_access && et_get_option('flexible_show_control_panel') == 'on') {
             wp_enqueue_script('et_colorpicker', $template_dir . '/epanel/js/colorpicker.js', array('jquery'), '1.0', true);
@@ -236,7 +227,7 @@ function et_create_portfolio_taxonomies()
         'menu_name' => __('Category', 'Flexible')
     );
 
-    register_taxonomy('project_category', array('project'), array(
+    register_taxonomy('course_category', array('course'), array(
         'hierarchical' => true,
         'labels' => $labels,
         'show_ui' => true,
@@ -251,20 +242,34 @@ function et_create_portfolio_taxonomies()
         'query_var' => true,
         'rewrite' => apply_filters('et_portfolio_category_rewrite_args', array('slug' => 'portfolio'))
     ));
+
+    register_taxonomy('newsletter_category', array('newsletter'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'query_var' => true,
+        'rewrite' => apply_filters('et_portfolio_category_rewrite_args', array('slug' => 'portfolio'))
+    ));
 }
 
+// Drop this in functions.php or your theme
+if (!is_admin()) {
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', ("http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"), false, '1.3.2');
+    wp_enqueue_script('jquery');
+}
 function et_portfolio_posttype_register()
 {
     $labels = array(
-        'name' => _x('Projects', 'post type general name', 'Flexible'),
-        'singular_name' => _x('Project', 'post type singular name', 'Flexible'),
+        'name' => _x('Course', 'post type general name', 'Flexible'),
+        'singular_name' => _x('Course', 'post type singular name', 'Flexible'),
         'add_new' => _x('Add New', 'project item', 'Flexible'),
-        'add_new_item' => __('Add New Project', 'Flexible'),
-        'edit_item' => __('Edit Project', 'Flexible'),
-        'new_item' => __('New Project', 'Flexible'),
-        'all_items' => __('All Projects', 'Flexible'),
-        'view_item' => __('View Project', 'Flexible'),
-        'search_items' => __('Search Projects', 'Flexible'),
+        'add_new_item' => __('Add New Course', 'Flexible'),
+        'edit_item' => __('Edit Course', 'Flexible'),
+        'new_item' => __('New Course', 'Flexible'),
+        'all_items' => __('All Course', 'Flexible'),
+        'view_item' => __('View Course', 'Flexible'),
+        'search_items' => __('Search Course', 'Flexible'),
         'not_found' => __('Nothing found', 'Flexible'),
         'not_found_in_trash' => __('Nothing found in Trash', 'Flexible'),
         'parent_item_colon' => ''
@@ -276,14 +281,14 @@ function et_portfolio_posttype_register()
         'publicly_queryable' => true,
         'show_ui' => true,
         'query_var' => true,
-        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'project', 'with_front' => false)),
+        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'course', 'with_front' => false)),
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields')
     );
 
-    register_post_type('project', $args);
+    register_post_type('course', $args);
 
     $labels1 = array(
         'name' => _x('Sponsor', 'post type general name', 'Flexible'),
@@ -305,13 +310,43 @@ function et_portfolio_posttype_register()
         'publicly_queryable' => true,
         'show_ui' => true,
         'query_var' => true,
-        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'project', 'with_front' => false)),
+        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'sponsor', 'with_front' => false)),
         'capability_type' => 'post',
         'hierarchical' => false,
         'menu_position' => null,
         'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields')
     );
     register_post_type('sponsor', $args1);
+
+    $labels2 = array(
+        'name' => _x('Newsletter', 'post type general name', 'Flexible'),
+        'singular_name' => _x('Newsletter', 'post type singular name', 'Flexible'),
+        'add_new' => _x('Add New', 'project item', 'Flexible'),
+        'add_new_item' => __('Add New Newsletter', 'Flexible'),
+        'edit_item' => __('Edit Newsletter', 'Flexible'),
+        'new_item' => __('New Newsletter', 'Flexible'),
+        'all_items' => __('All Newsletter', 'Flexible'),
+        'view_item' => __('View Newsletter', 'Flexible'),
+        'search_items' => __('Search Newsletter', 'Flexible'),
+        'not_found' => __('Nothing found', 'Flexible'),
+        'not_found_in_trash' => __('Nothing found in Trash', 'Flexible'),
+        'parent_item_colon' => ''
+    );
+
+    $args2 = array(
+        'labels' => $labels2,
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'query_var' => true,
+        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'newsletter', 'with_front' => false)),
+        'capability_type' => 'post',
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields')
+    );
+
+    register_post_type('newsletter', $args2);
 }
 
 if (!function_exists('et_list_pings')) {
