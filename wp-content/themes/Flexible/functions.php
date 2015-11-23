@@ -136,6 +136,10 @@ function et_get_featured_posts_ids()
 
     return $et_featured_post_ids;
 }
+function custom_excerpt_length( $length ) {
+    return 50;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 10 );
 
 /**
  * Filters the main query on homepage

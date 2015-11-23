@@ -20,5 +20,9 @@ if (function_exists('register_sidebar')) {
         'name' => 'Content Home',
         'id' => 'content-home',
     ));
+    register_sidebar(array(
+        'name' => 'Footer sidebar',
+        'id' => 'footer',
+    ));
 }
 ?>

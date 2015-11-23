@@ -52,10 +52,11 @@
                 href="<?php echo esc_url(home_url('/')); ?>"><?php if ('false' == et_get_option('flexible_logo_image', 'false') || '' == et_get_option('flexible_logo')) echo apply_filters('et_logo_markup', $bloginfo_name); else echo '<img src="' . esc_url(et_get_option('flexible_logo')) . '" alt="' . esc_attr($bloginfo_name) . '" />'; ?></a>
         </h1>
         <div class="formSearch">
-            <form>
-                <input type="text" placeholder="Search..." class="search_top">
-                <input type="submit" name="submit" value="Search">
-            </form>
+<!--            <form>-->
+<!--                <input type="text" placeholder="Search..." class="search_top">-->
+<!--                <input type="submit" name="submit" value="Search">-->
+<!--            </form>-->
+            <?php get_search_form(); ?>
         </div>
     </div>
     <nav id="topNav">

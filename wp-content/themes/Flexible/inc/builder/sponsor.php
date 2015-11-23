@@ -76,6 +76,7 @@ class SuperNews_Sponsor_Builder extends WP_Widget
             endwhile;
         endif;
         echo '</div>';
+
         // Restore original Post Data.
         wp_reset_postdata();
     }

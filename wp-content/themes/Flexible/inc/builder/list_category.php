@@ -53,7 +53,7 @@ class SuperNews_List_Category_Builder extends WP_Widget
             $args['number'] = $instance['num'];
         }
         $categories = get_categories($args);
-        echo '<div>';
+        echo '<div class="wrapCol">';
         foreach ($categories as $category) {
             $category_link = get_category_link(esc_attr($category->term_id));
             ?>

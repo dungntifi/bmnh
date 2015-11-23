@@ -1,0 +1,1 @@
+<form action="<?php bloginfo('siteurl'); ?>" id="searchform" method="get">    <input class="search_top" type="text" id="s" name="s" value="" placeholder="Search...">    <input type="submit" name="submit" id="searchsubmit" value="Search"></form>
