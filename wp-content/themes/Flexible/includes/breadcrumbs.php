@@ -21,9 +21,7 @@
                 $catlink = get_category_link($category[0]->cat_ID);
                 echo('<a href="' . esc_url($catlink) . '">' . esc_html($category[0]->cat_name) . '</a> ' . '<span class="raquo">&raquo;</span> ');
             }
-            echo '<span>';
-            get_the_title();
-            echo '</span>';
+            echo '<span>'.get_the_title().'</span>';
             ?>
         <?php } elseif (is_category()) { ?>
             <?php echo '<span>';

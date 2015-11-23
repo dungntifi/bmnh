@@ -1,0 +1,1 @@
+<p class="title"><?php echo the_title(); ?></p><div class="post_content">    <?php echo wpautop(get_post_field('post_content', get_the_ID())); ?></div>

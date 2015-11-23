@@ -1,8 +1,7 @@
 <?php get_header(); ?>
     <div class="wrapper">
         <?php get_template_part('includes/breadcrumbs', 'page'); ?>
-        <?php while (have_posts()) :
-            the_post(); ?>
+        <?php while (have_posts()) : the_post(); ?>
             <?php $post_id = get_the_ID(); ?>
             <div class="banner">
                 <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post_id)) ?>"

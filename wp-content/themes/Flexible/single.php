@@ -1,13 +1,12 @@
 <?php get_header(); ?>
-
-<?php get_template_part('includes/breadcrumbs', 'index'); ?>
-
-<div id="content-area" class="clearfix">
-	<div id="left-area">
-		<?php get_template_part('loop', 'single'); ?>
-	</div> <!-- end #left_area -->
-
-	<?php get_sidebar(); ?>
-</div> 	<!-- end #content-area -->
-
+    <div class="wrapper">
+        <?php get_template_part('includes/breadcrumbs', 'index'); ?>
+        <?php while (have_posts()) : the_post(); ?>
+            <session class="mainContent about">
+                <?php get_template_part('content', 'single'); ?>
+            </session>
+            <?php get_sidebar(); ?>
+            <div class="clear"></div>
+        <?php endwhile; ?>
+    </div>
 <?php get_footer(); ?>
