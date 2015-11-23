@@ -49,14 +49,13 @@ class SuperNews_List_Category_Builder extends WP_Widget
             'order' => 'ASC',
             'taxonomy' => 'category',
         );
-        if (isset($instance['num']) && (int)$instance['num'] > 0) {
-            $args['number'] = $instance['num'];
-        }
         $categories = get_categories($args);
         echo '<div class="wrapCol">';
         foreach ($categories as $category) {
             $category_link = get_category_link(esc_attr($category->term_id));
+            $check = get_field('is_hot_category',"category_". $category->term_id."");
             ?>
+            <?php if((int) $check == 1): ?>
             <article class="postStyle4 effect-4 effects">
                 <div class="img"><a href="<?php echo esc_url($category_link); ?>"><img
                             src="<?php if (function_exists('z_taxonomy_image_url')) echo z_taxonomy_image_url($category->term_id); ?>"
@@ -71,6 +70,7 @@ class SuperNews_List_Category_Builder extends WP_Widget
                 <p class="des"><?php echo self::getSubTitleTab(esc_attr($category->description),220); ?></p>
                 <a href="<?php echo esc_url($category_link); ?>" class="readmore">Read More</a>
             </article>
+                <?php endif; ?>
         <?php }
         echo '</div>';
     }
@@ -84,7 +84,7 @@ class SuperNews_List_Category_Builder extends WP_Widget
     {
 
         $instance = $new_instance;
-        $instance['num'] = (int)($new_instance['num']);
+        //$instance['num'] = (int)($new_instance['num']);
         return $instance;
     }
 
@@ -104,14 +104,14 @@ class SuperNews_List_Category_Builder extends WP_Widget
         $instance = wp_parse_args((array)$instance, $defaults);
         ?>
 
-        <p>
-            <label for="<?php echo $this->get_field_id('num'); ?>">
-                <?php _e('Number of posts to show', 'supernews'); ?>
-            </label>
-            <input class="widefat" id="<?php echo $this->get_field_id('num'); ?>"
-                   name="<?php echo $this->get_field_name('num'); ?>" type="number" step="1" min="-1"
-                   value="<?php echo (int)($instance['num']); ?>"/>
-        </p>
+<!--        <p>-->
+<!--            <label for="--><?php //echo $this->get_field_id('num'); ?><!--">-->
+<!--                --><?php //_e('Number of category to show', 'Flexible'); ?>
+<!--            </label>-->
+<!--            <input class="widefat" id="--><?php //echo $this->get_field_id('num'); ?><!--"-->
+<!--                   name="--><?php //echo $this->get_field_name('num'); ?><!--" type="number" step="1" min="-1"-->
+<!--                   value="--><?php //echo (int)($instance['num']); ?><!--"/>-->
+<!--        </p>-->
 
         <?php
 

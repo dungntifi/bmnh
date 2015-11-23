@@ -19,3 +19,16 @@ jQuery('ul.slimmenu').slimmenu({resizeWidth: '1044',collapserTitle: 'Menu',easin
     scrollTop:0
    },"slow");
   });
+$(".collapse-button").on('click', function(){
+  if($("#topNav").hasClass('mobileActive')){
+    $("#topNav").removeClass('mobileActive');
+  } else {
+    $("#topNav").addClass('mobileActive');
+  }
+})
+  /*$(".collapse-button").toggle(function(){
+    $("#topNav").addClass('mobileActive');
+  },
+  function(){
+    $(".menu-collapser").removeClass('mobileActive');
+  })*/

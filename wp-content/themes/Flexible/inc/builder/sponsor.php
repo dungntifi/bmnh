@@ -43,24 +43,37 @@ class SuperNews_Sponsor_Builder extends WP_Widget
     function widget($args, $instance)
     {
         extract($args);
+        // Pull the selected category.
+        $cat_id = (int) $instance['cat'];
+
+        // Get the category.
+        $category = get_category($cat_id);
+
+        // Get the category archive link.
+        $cat_link = get_category_link($cat_id);
+
+        // Posts query arguments.
         $args = array(
-            'post_type' => 'sponsor',
-            'orderby' => 'post_date',
-            'order' => 'DESC',
-            'posts_per_page ' => 4,
-            'tax_query' => array(
-                array(
-                    'taxonomy' => 'sponsor_category',
-                    'field' => 'slug',
-                    'operator' => '='
-                )
-            )
+            'posts_per_page' => $instance['num'],
+            'post_type' => 'post',
+            'orderby' => 'id',
+            'order' => 'ASC'
         );
-        $the_query = new WP_Query($args);
-        if ($the_query->have_posts()) :
+
+        // Limit to category based on user selected tag.
+        if (!empty($instance['cat'])) {
+            $args['cat'] = (int) $instance['cat'];
+        }
+
+        // Allow dev to filter the post arguments.
+        $query = apply_filters('supernews_posts_varian2_builder', $args);
+
+        // The post query.
+        $posts = new WP_Query($query);
+        if ($posts->have_posts()) :
             echo '<div class="sponsor">';
             echo '<h3>'.$instance['title_widget'].'</h3>';
-            while ($the_query->have_posts()) : $the_query->the_post();
+            while ($posts->have_posts()) : $posts->the_post();
                 ?>
                     <article>
                         <div>
@@ -91,6 +104,7 @@ class SuperNews_Sponsor_Builder extends WP_Widget
 
         $instance = $new_instance;
         $instance['num'] = (int)($new_instance['num']);
+        $instance['cat'] = (int)($new_instance['cat']);
         $instance['title_widget'] = $new_instance['title_widget'];
 
         return $instance;
@@ -107,7 +121,8 @@ class SuperNews_Sponsor_Builder extends WP_Widget
         // Default value.
         $defaults = array(
             'cat' => '',
-            'title_widget' => ''
+            'title_widget' => '',
+            'num' => 6
         );
 
         $instance = wp_parse_args((array)$instance, $defaults);
@@ -120,6 +135,15 @@ class SuperNews_Sponsor_Builder extends WP_Widget
             <input class="widefat" id="<?php echo $this->get_field_id('title_widget'); ?>"
                    name="<?php echo $this->get_field_name('title_widget'); ?>" type="text"
                    value="<?php echo $instance['title_widget']; ?>"/>
+        </p>
+        <p>
+
+            <label for="<?php echo $this->get_field_id('num'); ?>">
+                <?php _e('Number Item: ', 'Flexible'); ?>
+            </label>
+            <input class="widefat" id="<?php echo $this->get_field_id('num'); ?>"
+                   name="<?php echo $this->get_field_name('num'); ?>" type="text"
+                   value="<?php echo $instance['num']; ?>"/>
         </p>
         <p>
             <label for="<?php echo $this->get_field_id('cat'); ?>"><?php _e('Choose Category:', 'supernews'); ?></label>

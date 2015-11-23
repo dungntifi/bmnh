@@ -84,8 +84,8 @@ ul.slimmenu li a, ul.slimmenu2 li a {
 }
 ul.slimmenu li .sub-collapser, ul.slimmenu2 li .sub-collapser {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 5px;
+    top: 15px;
     width: 48px;
     height: 100%;
     text-align: center;
@@ -162,7 +162,14 @@ ul.slimmenu.collapsed li a, ul.slimmenu2.collapsed li a {
     -webkit-box-sizing: border-box
 }
 ul.slimmenu.collapsed li .sub-collapser, ul.slimmenu2.collapsed li .sub-collapser {
-    height: 40px;
+	background: url(img/icon-submenu.png) no-repeat center center;
+	background-position: 0px 0px;
+	font-size: 0;
+    height: 20px;
+    width: 20px;
+    &.expanded{
+		background-position: 0px 100%;
+    }
 }
 ul.slimmenu.collapsed li > ul, ul.slimmenu2.collapsed li > ul {
     display: none;
@@ -176,9 +183,6 @@ ul.slimmenu.collapsed li > ul, ul.slimmenu2.collapsed li > ul {
     ul.slimmenu.collapsed li > ul, ul.slimmenu2.collapsed li > ul {
         position: relative;
         margin-top: -30px;
-    }
-    ul.slimmenu li .sub-collapser, ul.slimmenu2 li .sub-collapser {
-        right: 25px;
     }
     .nav_left .menu-collapser {
         display: none !important;

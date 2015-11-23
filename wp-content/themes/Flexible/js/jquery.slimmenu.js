@@ -48,13 +48,13 @@
                 if ($(this).hasClass('expanded'))
                 {
                     $(this).removeClass('expanded');
-                    $(this).find('i').html('&#9660;');
+                    $(this).html('+');
                     $parent_li.find('>ul').slideUp($options.animSpeed, $options.easingEffect);
                 }
                 else
                 {
                     $(this).addClass('expanded');
-                    $(this).find('i').html('&#9650;');
+                    $(this).html('-');
                     $parent_li.find('>ul').slideDown($options.animSpeed, $options.easingEffect);
                 }
             });
@@ -82,16 +82,16 @@
                 {
                     if ($(this).has('.sub-collapser').length)
                     {
-                        $(this).children('.sub-collapser i').html('&#9660;');
+                        $(this).children('.sub-collapser').html('+');
                     }
                     else
                     {
-                        $(this).append('<span class="sub-collapser"><i>&#9660;</i></span>');
+                        $(this).append('<span class="sub-collapser">+</span>');
                     }
                 }
 
                 $(this).children('ul').hide();
-                $(this).find('.sub-collapser').removeClass('expanded').children('i').html('&#9660;');
+                $(this).find('.sub-collapser').removeClass('expanded').html('+');
             });
 
             if ($options.resizeWidth >= $window.width())
@@ -101,10 +101,10 @@
                     $menu.find('ul').each(function()
                     {
                         var $depth = $(this).parents('ul').length;
-                        if (!$(this).children('li').children('a').has('i').length)
+                        /*if (!$(this).children('li').children('a').has('i').length)
                         {
                             $(this).children('li').children('a').prepend(Plugin.prototype.indent($depth, $options));
-                        }
+                        }*/
                     });
                 }
 

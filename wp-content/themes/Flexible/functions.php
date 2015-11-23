@@ -239,14 +239,6 @@ function et_create_portfolio_taxonomies()
         'rewrite' => apply_filters('et_portfolio_category_rewrite_args', array('slug' => 'portfolio'))
     ));
 
-    register_taxonomy('sponsor_category', array('sponsor'), array(
-        'hierarchical' => true,
-        'labels' => $labels,
-        'show_ui' => true,
-        'query_var' => true,
-        'rewrite' => apply_filters('et_portfolio_category_rewrite_args', array('slug' => 'portfolio'))
-    ));
-
     register_taxonomy('newsletter_category', array('newsletter'), array(
         'hierarchical' => true,
         'labels' => $labels,
@@ -293,35 +285,6 @@ function et_portfolio_posttype_register()
     );
 
     register_post_type('course', $args);
-
-    $labels1 = array(
-        'name' => _x('Sponsor', 'post type general name', 'Flexible'),
-        'singular_name' => _x('Sponsor', 'post type singular name', 'Flexible'),
-        'add_new' => _x('Add New', 'project item', 'Flexible'),
-        'add_new_item' => __('Add New Sponsor', 'Flexible'),
-        'edit_item' => __('Edit Sponsor', 'Flexible'),
-        'new_item' => __('New Sponsor', 'Flexible'),
-        'all_items' => __('All Sponsor', 'Flexible'),
-        'view_item' => __('View Sponsor', 'Flexible'),
-        'search_items' => __('Search Sponsor', 'Flexible'),
-        'not_found' => __('Nothing found', 'Flexible'),
-        'not_found_in_trash' => __('Nothing found in Trash', 'Flexible'),
-        'parent_item_colon' => ''
-    );
-    $args1 = array(
-        'labels' => $labels1,
-        'public' => true,
-        'publicly_queryable' => true,
-        'show_ui' => true,
-        'query_var' => true,
-        'rewrite' => apply_filters('et_portfolio_posttype_rewrite_args', array('slug' => 'sponsor', 'with_front' => false)),
-        'capability_type' => 'post',
-        'hierarchical' => false,
-        'menu_position' => null,
-        'supports' => array('title', 'editor', 'thumbnail', 'excerpt', 'comments', 'revisions', 'custom-fields')
-    );
-    register_post_type('sponsor', $args1);
-
     $labels2 = array(
         'name' => _x('Newsletter', 'post type general name', 'Flexible'),
         'singular_name' => _x('Newsletter', 'post type singular name', 'Flexible'),
