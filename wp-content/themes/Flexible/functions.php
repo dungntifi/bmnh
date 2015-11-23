@@ -180,11 +180,11 @@ function et_load_flexible_scripts()
         $template_dir = get_template_directory_uri();
         $admin_access = apply_filters('et_showcontrol_panel', current_user_can('switch_themes'));
         if ($admin_access && et_get_option('flexible_show_control_panel') == 'on') {
-            wp_enqueue_script('et_colorpicker', $template_dir . '/epanel/js/colorpicker.js', array('jquery'), '1.0', true);
-            wp_enqueue_script('et_eye', $template_dir . '/epanel/js/eye.js', array('jquery'), '1.0', true);
-            wp_enqueue_script('et_cookie', $template_dir . '/js/jquery.cookie.js', array('jquery'), '1.0', true);
-            wp_enqueue_script('et_control_panel', $template_dir . '/js/et_control_panel.js', array('jquery'), '1.0', true);
-            wp_localize_script('et_control_panel', 'et_control_panel', apply_filters('et_control_panel_settings', array('theme_folder' => $template_dir)));
+//            wp_enqueue_script('et_colorpicker', $template_dir . '/epanel/js/colorpicker.js', array('jquery'), '1.0', true);
+//            wp_enqueue_script('et_eye', $template_dir . '/epanel/js/eye.js', array('jquery'), '1.0', true);
+//            wp_enqueue_script('et_cookie', $template_dir . '/js/jquery.cookie.js', array('jquery'), '1.0', true);
+//            wp_enqueue_script('et_control_panel', $template_dir . '/js/et_control_panel.js', array('jquery'), '1.0', true);
+//            wp_localize_script('et_control_panel', 'et_control_panel', apply_filters('et_control_panel_settings', array('theme_folder' => $template_dir)));
         }
     }
     if (is_singular() && get_option('thread_comments')) wp_enqueue_script('comment-reply');

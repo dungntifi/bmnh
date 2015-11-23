@@ -853,17 +853,19 @@ p.download{
 	background: #fff;
 	float: left;
 	width: 690px;
-	&>p{
-		color: #5d5d5d;
-		font-family: 'century-gothic';
-		font-size: 1.5rem;
-		line-height: 1.7;
-		text-align: justify;
-		&:first-child{
-			padding-top: 30px;
-		}
-		&:last-of-type{
-			padding-bottom: 50px;
+	.post_content{
+		&>p{
+			color: #5d5d5d;
+			font-family: 'century-gothic';
+			font-size: 1.5rem;
+			line-height: 1.7;
+			text-align: justify;
+			&:first-child{
+				padding-top: 30px;
+			}
+			&:last-of-type{
+				padding-bottom: 50px;
+			}
 		}
 	}
 
@@ -1116,27 +1118,27 @@ p.download{
 				input{
 					width: 100%;
 				}
-				&:nth-child(1),
-				&:nth-child(2){
+				&.firstName,
+				&.lastName{
 					float: left;
 					width: 108.5px;
 				}
-				&:nth-child(2){
+				&.lastName{
 					margin-left: 3px;
 				}
-				&:nth-child(3){
+				&.email{
 					margin-top: 8px;
 					width: 100%;
 				}
 			}
+			.privacy{
+				color: #fff;
+				font-family: 'century-gothic';
+				font-size: 1rem;
+				margin-left: 3px;
+			}
 			input{
 				border: none;
-				&+span{
-					color: #fff;
-					font-family: 'century-gothic';
-					font-size: 1rem;
-					margin-left: 3px;
-				}
 			}
 			input[type="text"]{
 				color: #5d5d5d;
@@ -1322,7 +1324,6 @@ footer{
 		font-size: 1.3rem;
 		float: right;
 		text-align: center;
-		width: 116px;
 		p{
 			color: #fff;
 		}
@@ -1361,4 +1362,76 @@ footer{
 	}
 }
 
+.category{
+	padding-bottom: 50px;
+	article{
+	    clear: both;
+		position: relative;
+		overflow: hidden;
+	    padding-bottom: 10px;
+		&.post28{
+			&:not(:first-child){
+				border-top: 1px solid #e2e2e2;
+				padding-top: 10px;
+			}
+			
+	    	header{
+	    		position: inherit;
+	    		left: 0;
+	    		top: 0;
+	    		h2{
+	    			display: inline;
+	    			padding-bottom: 0px;
+	    		}
+	    		a{
+	    			font-family: 'century-gothic';
+	    			font-size: 1.5rem;
+	    			font-weight: bold;
+	    			color: #5d5d5d;
+	    			&:hover{
+	    				color: #1e42b0;
+	    			}
+	    		}
+	    	}
+	    	img{
+	    		-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+	    		width: 46%;
+			    height: auto;
+			    float: left;
+			    padding-right: 10px;
+	    	}
+	    	p{
+	    		color: #5d5d5d;
+	    		font-family: 'century-gothic';
+	    		font-size: 1.3rem;
+	    		text-align: justify;
+	    	}
+	    	&>a {
+				&.readmore {
+					display: inline-block;
+					background: url(img/icon-more.jpg)  no-repeat right 5px;
+					color: #1e42b0;
+					font-family: 'century-gothic';
+					font-size: 1.3rem;
+					font-weight: bold;
+					font-style: italic;
+					position: absolute;
+				    bottom: 35px;
+					margin-left: 0;
+					right: 5px;
+					padding-right: 15px;
+					&:hover {
+						background: url(img/icon-more-hover.jpg)  no-repeat right center;
+						color: #f4b60e !important;
+					}
+				}
+			}
+	    }
+	}
+	&+aside{
+        padding-bottom: 50px;
+    }
+}
 @import 'template/responsive.less';

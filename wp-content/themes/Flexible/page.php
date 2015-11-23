@@ -4,7 +4,11 @@
         <?php while (have_posts()) :
             the_post(); ?>
             <?php $post_id = get_the_ID(); ?>
-            <div class="banner"><?php echo the_post_thumbnail('full'); ?></div>
+            <div class="banner">
+                <img src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($post_id)) ?>"
+                     alt="<?php echo the_title() ?>" title="<?php echo the_title() ?>">
+                <h2><?php echo the_title() ?></h2>
+            </div>
             <?php $class = get_field('class', $post_id); ?>
             <session class="mainContent <?php echo $class ?>">
                 <?php the_content(); ?>

@@ -59,7 +59,6 @@ class SuperNews_Slider_Builder extends WP_Widget
                 <img class="love" src="<?php echo $image->get_image_src('full'); ?>"/>
             <?php endif; ?>
         </session>
-        <?php wp_footer(); ?>
         <style type="text/css">
             .jssor_slider_outer_container {
                 margin: 0px auto !important;

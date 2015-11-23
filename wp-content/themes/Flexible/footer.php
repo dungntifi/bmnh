@@ -46,11 +46,8 @@
     </div>
     <img id="toTop" src="<?php echo get_template_directory_uri(); ?>/img/icon-scroll.png" alt="Scroll to top"
          title="Scroll to top" class="desktop">
+    <?php wp_footer(); ?>
 </footer>
-<!--<footer id="main_footer" class="clearfix">-->
-<!--    <p id="copyright">--><?php //printf(__('Designed by %s | Powered by %s', 'Flexible'), '<a href="http://www.elegantthemes.com" title="Premium WordPress Themes">Elegant Themes</a>', '<a href="http://www.wordpress.org">WordPress</a>'); ?><!--</p>-->
-<!--</footer> <!-- end #main_footer -->
-
 <script type="text/javascript">
     $(document).ready(function () {
 //        jQuery('ul.slimmenu').slimmenu({
@@ -117,6 +114,9 @@
         });
     });
 </script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/less.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js" type="text/javascript"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slimmenu.js" type="text/javascript"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 </body>
 </html>

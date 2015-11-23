@@ -36,9 +36,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
     <![endif]-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/less.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.easing.min.js" type="text/javascript"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.slimmenu.js" type="text/javascript"></script>
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.js" type="text/javascript"></script>-->
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.slider.js" type="text/javascript"></script>-->
 <!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/slider-config.js" type="text/javascript"></script>-->
