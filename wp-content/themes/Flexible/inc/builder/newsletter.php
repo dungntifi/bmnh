@@ -56,22 +56,22 @@ class SuperNews_NewsLetter_Builder extends WP_Widget
                     <h3 class="d_active tab_drawer_heading" rel="tab1">Tab 1</h3>
 
                     <div class="main-content-tab">
-                        <?php echo get_the_post_thumbnail($instance['post_1'], 'full', array('id' => 'tab1', 'alt' => 'braystone', 'title' => 'braystone')); ?>
+                        <img id="tab1" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($instance['post_1'])) ?>" alt="braystone" title="braystone">
 
-                        <?php echo get_the_post_thumbnail($instance['post_2'], 'full', array('id' => 'tab2', 'alt' => 'training', 'title' => 'training')); ?>
+                        <img id="tab2" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($instance['post_2'])) ?>" alt="training" title="training">
 
-                        <?php echo get_the_post_thumbnail($instance['post_3'], 'full', array('id' => 'tab3', 'alt' => 'courses', 'title' => 'courses')); ?>
+                        <img id="tab3" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($instance['post_3'])) ?>" alt="courses" title="courses">
 
-                        <?php echo get_the_post_thumbnail($instance['post_4'], 'full', array('id' => 'tab4', 'alt' => 'services', 'title' => 'services')); ?>
+                        <img id="tab4" src="<?php echo wp_get_attachment_url(get_post_thumbnail_id($instance['post_4'])) ?>" alt="services" title="services">
 
                     </div>
                 </div>
             </div>
 
             <!-- .tab_container -->
-<!--            <p class="download">-->
-<!--                <button type="button"><img src="img/download.png" alt="download" title="download"></button>-->
-<!--            </p>-->
+            <!--            <p class="download">-->
+            <!--                <button type="button"><img src="img/download.png" alt="download" title="download"></button>-->
+            <!--            </p>-->
             <div class="clear"></div>
         </session>
 
