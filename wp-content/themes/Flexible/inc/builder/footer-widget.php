@@ -81,8 +81,8 @@ class SuperNews_Footer_Widget_Builder extends WP_Widget
             <div>
                 <p class="left"><?php echo $instance['copyright']; ?></p>
 
-                <p class="right">Power by <img src="<?php echo $image->get_image_src('full'); ?>" alt=""
-                                               title=""></p>
+                <p class="right"><a href="http://silkmedia.com.au/" target="_blank">Power by <img src="<?php echo $image->get_image_src('full'); ?>" alt=""
+                                               title=""></a></p>
             </div>
         </div>
         <?php

@@ -136,10 +136,13 @@ function et_get_featured_posts_ids()
 
     return $et_featured_post_ids;
 }
-function custom_excerpt_length( $length ) {
+
+function custom_excerpt_length($length)
+{
     return 50;
 }
-add_filter( 'excerpt_length', 'custom_excerpt_length', 10 );
+
+add_filter('excerpt_length', 'custom_excerpt_length', 10);
 
 /**
  * Filters the main query on homepage
@@ -358,6 +361,23 @@ if (!function_exists('et_get_comments_popup_link')) {
 
         return '<span class="comments-number">' . '<a href="' . esc_url(get_permalink() . '#respond') . '">' . apply_filters('comments_number', $output, $number) . '</a>' . '</span>';
     }
+}
+add_filter('wpcf7_validate', 'email_already_in_db', 10, 2);
+
+function email_already_in_db($result, $tags)
+{
+    global $wpdb;
+    // retrieve the posted email
+    $form = WPCF7_Submission::get_instance();
+    $tags =
+    $email = $form->get_posted_data('email');
+    $subscribe_formname = 'side-bar-form';
+    $check = $wpdb->get_row("SELECT * FROM wp_cf7dbplugin_submits WHERE field_name = 'email' and field_value = '" . $email . "' and form_name='" . $subscribe_formname . "'");
+    // if already in database, invalidate
+    if (isset($check) && $check != NULL)
+        $result->invalidate('email', 'Your email exists in our database');
+    // return the filtered value
+    return $result;
 }
 
 if (!function_exists('et_postinfo_meta')) {
