@@ -1,0 +1,32 @@
+.qpp-style.testform {width:100%;}
+.qpp-style.testform input[type=text], .qpp-style.testform textarea, .qpp-style.testform select, .qpp-style.testform #submit {border-radius:0;}
+.qpp-style.testform p{;}
+.qpp-style.testform input[type=text], .qpp-style.testform select {border: 1px solid #000;;font-size: inherit;height:auto;line-height:normal;}
+.qpp-style.testform input[type=text].required {border: 1px solid #000;}
+.qpp-style.testform p.submit {text-align:left;}
+.qpp-style.testform #submitimage, .qpp-style.testform #submitimage:hover {width:100%;height:auto;overflow:hidden;}
+.qpp-style.testform #submit, .qpp-style.testform #submit:hover {width:100%;color:#FFF;background:#1e73be;border:1px solid #415063;;font-size: inherit;text-align:center;}
+.qpp-style.testform #couponsubmit, .qpp-style.testform #couponsubmit:hover{width:100%;color:#FFF;background:#1f8416;border:1px solid #415063;;font-size: inherit;margin: 3px 0px 7px;
+padding: 6px;text-align:center;}
+.qpp-style.testform div.rangeslider, .qpp-style.testform div.rangeslider__fill {background: #CCC;}
+.qpp-style.testform div.rangeslider__fill {background: #00ff00;}
+.qpp-style.testform div.rangeslider__handle {background: white;border: 1px solid #CCC;}
+.qpp-style.testform div.qpp-slideroutput{font-size:1.2em;color:#465069;}.qpp-style.testform input#qpptotal {font-weight:bold;padding: 0;margin-left:3px;border:none;}
+
+.qpp-style.default {width:280px;}
+.qpp-style.default #plain {border:1px solid #415063;}
+.qpp-style.default input[type=text], .qpp-style.default textarea, .qpp-style.default select, .qpp-style.default #submit {border-radius:0;}
+.qpp-style.default h2 {font-size: 1.6em; color: #465069;}.qpp-style.default p{font-family: arial, sans-serif; font-size: 1em;color: #465069;line-height:100%;;}
+.qpp-style.default input[type=text], .qpp-style.default select {border: 1px solid #415063;font-family: arial, sans-serif; font-size: 1em; color: #465069;;font-size: inherit;height:auto;line-height:normal;}
+.qpp-style.default input[type=text].required {border: 1px solid #00C618;}
+.qpp-style.default div {background:#FFF;}
+.qpp-style.default p.submit {text-align:left;}
+.qpp-style.default #submitimage, .qpp-style.default #submitimage:hover {width:100%;height:auto;overflow:hidden;}
+.qpp-style.default #submit, .qpp-style.default #submit:hover {width:100%;color:#FFF;background:#343838;border:1px solid #415063;font-family: arial, sans-serif;font-size: inherit;text-align:center;}
+.qpp-style.default #couponsubmit, .qpp-style.default #couponsubmit:hover{width:100%;color:#FFF;background:#1f8416;border:1px solid #415063;font-family: arial, sans-serif;font-size: inherit;margin: 3px 0px 7px;
+padding: 6px;text-align:center;}
+.qpp-style.default div.rangeslider, .qpp-style.default div.rangeslider__fill {background: #CCC;}
+.qpp-style.default div.rangeslider__fill {background: #00ff00;}
+.qpp-style.default div.rangeslider__handle {background: white;border: 1px solid #CCC;}
+.qpp-style.default div.qpp-slideroutput{font-size:1.2em;color:#465069;}.qpp-style.default input#qpptotal {font-weight:bold;padding: 0;margin-left:3px;border:none;background:#FFF}
+

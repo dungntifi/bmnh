@@ -32,3 +32,7 @@ $(".collapse-button").on('click', function(){
   function(){
     $(".menu-collapser").removeClass('mobileActive');
   })*/
+if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+  $('#header #topNav > ul.slimmenu li a').css("font-size", "1rem");
+  $('ul.tabs li').css("font-size", "1rem");
+}

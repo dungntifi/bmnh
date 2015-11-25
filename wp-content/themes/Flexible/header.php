@@ -36,26 +36,30 @@
     <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
     <![endif]-->
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-1.11.1.min.js" type="text/javascript"></script>
-<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.js" type="text/javascript"></script>-->
-<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/jssor.slider.js" type="text/javascript"></script>-->
-<!--    <script src="--><?php //echo get_template_directory_uri(); ?><!--/js/slider-config.js" type="text/javascript"></script>-->
+    <!--    <script src="-->
+    <?php //echo get_template_directory_uri(); ?><!--/js/jssor.js" type="text/javascript"></script>-->
+    <!--    <script src="-->
+    <?php //echo get_template_directory_uri(); ?><!--/js/jssor.slider.js" type="text/javascript"></script>-->
+    <!--    <script src="-->
+    <?php //echo get_template_directory_uri(); ?><!--/js/slider-config.js" type="text/javascript"></script>-->
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <header id="header">
     <div class="wrapper">
         <p class="slogan">The Braybrook Maidstone Neighbourhood House Inc</p>
-        <p class="donate"><a
-                href="#"><?php if (($phone_num = et_get_option('flexible_phone_num')) && '' != $phone_num) echo '<span id="phone">' . $phone_num . '</span>' ?></a>
+
+        <p class="donate">
+            <?php if (is_active_sidebar('donate')) { ?>
+                <?php dynamic_sidebar('donate'); ?>
+            <?php } ?>
         </p>
+
         <h1 id="logo"><a
                 href="<?php echo esc_url(home_url('/')); ?>"><?php if ('false' == et_get_option('flexible_logo_image', 'false') || '' == et_get_option('flexible_logo')) echo apply_filters('et_logo_markup', $bloginfo_name); else echo '<img src="' . esc_url(et_get_option('flexible_logo')) . '" alt="' . esc_attr($bloginfo_name) . '" />'; ?></a>
         </h1>
+
         <div class="formSearch">
-<!--            <form>-->
-<!--                <input type="text" placeholder="Search..." class="search_top">-->
-<!--                <input type="submit" name="submit" value="Search">-->
-<!--            </form>-->
             <?php get_search_form(); ?>
         </div>
     </div>

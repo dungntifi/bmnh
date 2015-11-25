@@ -61,6 +61,9 @@ function flexible_builder_init() {
 // Register posts list builder.
 	require trailingslashit( get_template_directory() ) . 'inc/builder/footer-widget.php';
 	register_widget( 'SuperNews_Footer_Widget_Builder' );
+	// Register posts list builder.
+	require trailingslashit( get_template_directory() ) . 'inc/builder/donate.php';
+	register_widget( 'SuperNews_Donate_Builder' );
 
 }
 add_action( 'widgets_init', 'flexible_builder_init' );

@@ -24,5 +24,9 @@ if (function_exists('register_sidebar')) {
         'name' => 'Footer sidebar',
         'id' => 'footer',
     ));
+    register_sidebar(array(
+        'name' => 'Header Donate',
+        'id' => 'donate',
+    ));
 }
 ?>
